@@ -1,0 +1,58 @@
+{
+  "at": "2026-11-01T18:33:18Z",
+  "body": {
+    "action": "change-push",
+    "dispatchedAt": "2026-11-01T18:33:14Z",
+    "evidence": [],
+    "identity": "github-pull-requests:01M6C3PV4GRTA4QWDS1WC7CRNH:change-push:work/tally-02:0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+    "intent": "change-push at the pinned head, with the declared repository and checks.",
+    "observed": {
+      "at": "2026-11-01T18:33:18Z",
+      "summary": "The scanned commit was observed at the remote branch."
+    },
+    "provider": "github-pull-requests",
+    "requiredChecks": [
+      "test (ubuntu-latest)",
+      "test (macos-latest)",
+      "test (windows-latest)"
+    ],
+    "scan": {
+      "findingCount": 0,
+      "range": "141603250c7098cdd0867c91f68bae4a967ed966..0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+      "tool": "gitleaks",
+      "verdict": "passed",
+      "version": "8.30.1; rules sha256:0c574f0937f241a06df98172bba3957598357a9f653ec6dfb40f17996d353ac7"
+    },
+    "status": "observed-success",
+    "target": {
+      "base": "141603250c7098cdd0867c91f68bae4a967ed966",
+      "branch": "work/tally-02",
+      "destination": "Vericairn/vericairn-example-app",
+      "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "productHash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+      "remoteHead": "",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "repositoryHash": "sha256:e1651b3e8fba828905112afef3d5f3ae5e09781daa4aeae946541bb038281e1a",
+      "target": "main",
+      "targetHead": "141603250c7098cdd0867c91f68bae4a967ed966"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:9f2603bdf5153ac8eba94c6bb2344f26cada8f76cdf744f3f6fcabd87af3b706",
+  "id": "01M6C66AHTGEVTQM29VW5CZQ0X",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "0qebysI7PvWxpKPxAiq4DTnZ-zWSUOJqUjQR3TkZAis0Ue1QtRB3ebZUMtOYrPXkvspI_b_-Eosnc5yt7XAGoQ"
+    }
+  ],
+  "subject": {
+    "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+    "type": "product"
+  },
+  "supersedes": "01M6C667CGX3C7FQ2GYE9TQKWS",
+  "type": "operation"
+}

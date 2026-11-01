@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-01T17:48:37Z",
+  "body": {
+    "note": "The demonstration operator's key; the estate's first authority.",
+    "principal": "01M6C3K49V7R6YXHJE04YRZ2MM",
+    "status": "admitted"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:bc6da5356d17097d9793e7505c51cadf3123692d5b75f5dfae39c1318b554650",
+  "id": "01M6C3MH55WTGQ96QJBSACQMY6",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "R2eXFurLy346F9D_RmVUCjH3pYj2GTqN5DIOj2Pc7K3AfFLy0Z2iDhxTwWlkIscwiopov_tKakiG82hD5y-58g"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:7cb0d95612afcfd2a2e71dd5a4f03d6c501708f7d55aa4f6044e668b377fba44",
+    "id": "01M6C3MGZ6M1DFF1DYRW8S710V",
+    "type": "device"
+  },
+  "type": "admission"
+}

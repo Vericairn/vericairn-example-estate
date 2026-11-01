@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-01T18:20:54Z",
+  "body": {
+    "findings": [],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "Exit question of TALLY-01: yes. tally prints the lines, words and characters of files and of standard input, tested, with the README describing them: the example builder agent's second result 01M6C54XG5QA41H3Q6KQ9M4M6S, after the first was returned for its Windows decoding, passed this reviewer's review 01M6C58Z1RBEDFSP7T9G6TMJZN, and pull request 2 merged after its checks passed on Linux, macOS and Windows."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:1c71e031a2c75bc2106d412774e516a9b2e7c2a6893a57ebdf991d9ad292075b",
+  "id": "01M6C5FKX2JE3EEXX1QW4KEGR9",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "LWawwgsBk3HJ-kg3uIsegBP_JQ0eZ65vuwojrw3O4PRrt3nFQkfYOXaU9FDrk7EWGrY6iP3JhC0bJa986LaaJQ"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:f1856f478f0594264d008d97763f3b65c4084ec35c5074bea5db9af6ce57a2a9",
+    "id": "01M6C3RVA4C1M22PVHYBDV7VQ2",
+    "type": "work-order"
+  },
+  "type": "review"
+}

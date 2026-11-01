@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-01T17:53:28Z",
+  "body": {
+    "consequence": "This warning does not stop the run. The observation remains for review; continued looping or abnormal spending may reach a critical threshold.",
+    "goal": "01M6C3SP39W0Z5VNJHQXQYWST6",
+    "question": "Run 01M6C3X1Q11KG9PH7T5MWZNBBZ [audit-unverified/warning] needs attention at 2026-11-01T17:53:27Z: The worker could not complete one or more invocation checks; completed audit verdicts still apply. Inspect the run?",
+    "recommendation": "Inspect the worker's observation, the locally retained output and the assignment before deciding on another attempt.",
+    "state": "open",
+    "to": "01M6C3K49V7R6YXHJE04YRZ2MM"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:901dab70616f2cb9d1ce8f9e18b0d7dd91359cf7595d9785a252f2da03edefec",
+  "id": "01M6C3XD6BPNF71FJG3EVY3GHF",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "AujsEepLC2CsdkSyZUCl7mxSoHLh1eGOIvVGdgnYAhEjwIVcvpPCk5RuuAnOkhZnyG_o23iDmt3uHJc-DniCvQ"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:2059c5ecef3cc4d53db17fb3351193584f00e320a119d6a06596d3c8e5f8dff6",
+    "id": "01M6C3X1Q11KG9PH7T5MWZNBBZ",
+    "type": "operation"
+  },
+  "type": "ask"
+}

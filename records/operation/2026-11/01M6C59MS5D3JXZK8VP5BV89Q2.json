@@ -1,0 +1,75 @@
+{
+  "at": "2026-11-01T18:17:38Z",
+  "body": {
+    "action": "change-observe",
+    "checks": [
+      {
+        "conclusion": "success",
+        "head": "e696403e0f3c6872ad9e7d169d3c68163e855104",
+        "name": "test (ubuntu-latest)",
+        "status": "completed"
+      },
+      {
+        "conclusion": "success",
+        "head": "e696403e0f3c6872ad9e7d169d3c68163e855104",
+        "name": "test (windows-latest)",
+        "status": "completed"
+      },
+      {
+        "conclusion": "success",
+        "head": "e696403e0f3c6872ad9e7d169d3c68163e855104",
+        "name": "test (macos-latest)",
+        "status": "completed"
+      }
+    ],
+    "dispatchedAt": "2026-11-01T18:17:36Z",
+    "evidence": [],
+    "identity": "github-pull-requests:01M6C3PV4GRTA4QWDS1WC7CRNH:change-merge:2:e696403e0f3c6872ad9e7d169d3c68163e855104:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d:observe:01M6C59K5BY7X7N5CP3AG5MHZC",
+    "intent": "change-observe at the pinned head, with the declared repository and checks.",
+    "observed": {
+      "at": "2026-11-01T18:17:38Z",
+      "summary": "The host observation was recorded; missing facts and incomplete inventories remain uncertain."
+    },
+    "provider": "github-pull-requests",
+    "requiredChecks": [
+      "test (ubuntu-latest)",
+      "test (macos-latest)",
+      "test (windows-latest)"
+    ],
+    "status": "observed-success",
+    "target": {
+      "branch": "work/tally-01",
+      "complete": "true",
+      "destination": "Vericairn/vericairn-example-app",
+      "head": "e696403e0f3c6872ad9e7d169d3c68163e855104",
+      "observation": "pull-request",
+      "observedHead": "e696403e0f3c6872ad9e7d169d3c68163e855104",
+      "observedTarget": "main",
+      "operation": "01M6C59K2PDRVW2PR19EYJ29ER",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "productHash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+      "pullRequest": "2",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "repositoryHash": "sha256:e1651b3e8fba828905112afef3d5f3ae5e09781daa4aeae946541bb038281e1a",
+      "state": "open",
+      "target": "main"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:41697fe43e1391ae2a95df69dbcd7cda9795d7a2a498b1f4969b2b9d34485350",
+  "id": "01M6C59MS5D3JXZK8VP5BV89Q2",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "vQ57TlTx22ZJIrBVmOTNGj6aHAJkRw0iOxw90bjuQppbDEcp9kELgYx9gsxARsii1X-GGwUrBCjiT8VQNs29dw"
+    }
+  ],
+  "subject": {
+    "id": "01M6C59K2PDRVW2PR19EYJ29ER",
+    "type": "operation"
+  },
+  "supersedes": "01M6C59K8EV60KMD8YCWSKGQWY",
+  "type": "operation"
+}

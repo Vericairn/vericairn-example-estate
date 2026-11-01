@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-01T18:20:54Z",
+  "body": {
+    "basis": [
+      "01M6C5FKX2JE3EEXX1QW4KEGR9"
+    ],
+    "self": true,
+    "statement": "TALLY-01 is done, on the example reviewer's review 01M6C5FKX2JE3EEXX1QW4KEGR9 of the work."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:e28befa5e5c6f142f5fa931a24f3f1a3852886ba78b14b5b53f9b7c2cf6e7f59",
+  "id": "01M6C5FM8ZWV2VSAVYW667KRHM",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "4YcTedolHe9WspK5qtBhJdfFNho0Mfus0vPPQbA_WawOaylN-koeGGzBRYPdLhSIixeEYHZUMeYsNQ0NlMBLtw"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:f1856f478f0594264d008d97763f3b65c4084ec35c5074bea5db9af6ce57a2a9",
+    "id": "01M6C3RVA4C1M22PVHYBDV7VQ2",
+    "type": "work-order"
+  },
+  "type": "acceptance"
+}

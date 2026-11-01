@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-01T18:36:14Z",
+  "body": {
+    "findings": [],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "Exit question of TALLY-02: yes. tally --json prints one parseable object per input with its counts, tested, with errors still on standard error: the example builder agent's result 01M6C63EGPWMFEAKZP0A4ZMDJD passed this reviewer's review 01M6C6BERG936N8KZKCQ15V7N6, and pull request 3 merged after its checks passed on Linux, macOS and Windows."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:38c238013c561058a6270e5b72574b5b9018e417f64d7d3ee328073e1d876fc2",
+  "id": "01M6C6BQ43JABRVNY8MYBY7SCH",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "u2gkFRcGWuny5aW8kn88m1I024u_DyyuYmbScb85I6ErOtAs7la4gyNQ-PrKd2T8TcMnrHGglxZmv_-RHB9SUw"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:89238a85bb1253ea8ecb9ae6f56517fa11e1b224b5d338baf7f52619994aa657",
+    "id": "01M6C3RVJQEJV4BHJRWAZ90SF2",
+    "type": "work-order"
+  },
+  "type": "review"
+}

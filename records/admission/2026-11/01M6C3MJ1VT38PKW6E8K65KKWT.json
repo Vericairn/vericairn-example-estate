@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-01T17:48:38Z",
+  "body": {
+    "note": "The example builder agent's key, demonstration only.",
+    "principal": "01M6C3MHAZ58MF425SK101VQKT",
+    "status": "admitted"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:44fd136fc7410a42ef625bc65a13ce47b9b0abe84e777950f7ad1ae17fb01d7f",
+  "id": "01M6C3MJ1VT38PKW6E8K65KKWT",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "rveJxjSIaHou-uO6SWGB8gbsSWmwNSdofp0riixXtVTN-lFNQK_dQyvLDfQwMuKKk666_vViSL-wUtwbqWlVug"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:c819f2e27c2cef89a32d86264c87730ed2f95500c58a3aa22e99a575643faf04",
+    "id": "01M6C3MHPANK0D9PT4KRA6KRMT",
+    "type": "device"
+  },
+  "type": "admission"
+}

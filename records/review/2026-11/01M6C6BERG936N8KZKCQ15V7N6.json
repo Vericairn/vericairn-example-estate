@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-01T18:36:06Z",
+  "body": {
+    "findings": [
+      {
+        "severity": "info",
+        "summary": "The result is partial only because the sandbox denied the test runner's local socket; the suite passes outside it and on every platform's check."
+      }
+    ],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "TALLY-02: yes to the exit question. tally --json prints one parseable JSON object per input with path (null for standard input), lines, words and characters, using System.Text.Json; output without --json is unchanged; errors stay on standard error, set exit code 1 and leave the other inputs counted. The reviewer ran all 63 tests, and pull request 3's checks pass on Linux, macOS and Windows at 0fa6f8b."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:a97022a33aed7eeefc4e77ef0490efba95a0af5201574ccb2548c179687545f2",
+  "id": "01M6C6BERG936N8KZKCQ15V7N6",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "cEhqqr1Eq39ojRAT_VJ_cXSWql4kQ9qHb_CuR2T9bEdtU8xKD5ZeQRl7_x21DCdW8MdF-pvJIFkHa1_PyD4XsQ"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:eb26df61952a7a8befa61dec4704dc52b0083a553780fbad2c4d2b188fb423b0",
+    "id": "01M6C63EGPWMFEAKZP0A4ZMDJD",
+    "type": "result"
+  },
+  "type": "review"
+}

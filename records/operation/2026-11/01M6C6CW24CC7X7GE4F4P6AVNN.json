@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-01T18:36:52Z",
+  "body": {
+    "action": "dispatch-release-workflow",
+    "evidence": [
+      {
+        "hash": "sha256:745bbae88df6b0acd95368999557ca6fcafb578f28b281f3c5a2d8cb9ac08613",
+        "summary": "Release admission basis sha256:6818992b0a97da78284d0b9bb496de68827ae070563c99c9f522664622c9b29e, at 2026-11-01T18:36:52Z (submission time); exact policy, duty and source evidence."
+      }
+    ],
+    "identity": "github-releases:Vericairn/vericairn-example-app:v0.1.0",
+    "intent": "Build release 0.1.0 of Vericairn/vericairn-example-app through github-releases (checksums SHA256SUMS, ref main, workflow release.yml) into a draft; publication stays the operator's manual step.",
+    "provider": "github-releases",
+    "status": "not-started",
+    "target": {
+      "checksums": "SHA256SUMS",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "ref": "main",
+      "repository": "Vericairn/vericairn-example-app",
+      "version": "0.1.0",
+      "workflow": "release.yml"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:f50960dc100e70e0497a7f4f524b1e4e4bc0071f811ba67b8fba0480402912f7",
+  "id": "01M6C6CW24CC7X7GE4F4P6AVNN",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "tLfKDEnkpqIsV5qWReGjWYHhvW9W8_BWofz7ONspemrNQscXYzAI2UAebiU99dJWZWmPs7EZcpWhoi1FLiTp1Q"
+    }
+  ],
+  "subject": {
+    "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+    "type": "product"
+  },
+  "type": "operation"
+}

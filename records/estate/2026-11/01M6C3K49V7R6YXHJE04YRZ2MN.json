@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-01T17:47:51Z",
+  "body": {
+    "name": "Example Ventures",
+    "operator": "01M6C3K49V7R6YXHJE04YRZ2MM",
+    "organization": {
+      "name": "Example Ventures"
+    },
+    "policies": {
+      "releaseAcceptance": [
+        "operator"
+      ],
+      "signatures": "optional"
+    },
+    "purpose": "A demonstration estate: Vericairn's public example, managing the tally example app end to end. Its roles and device keys are demonstration-only.",
+    "recordFormat": 3,
+    "slug": "example-ventures"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:87b508876651bfbfef85650a56bdec7eab12ac2b113fc4edc7b649c8bfb04033",
+  "id": "01M6C3K49V7R6YXHJE04YRZ2MN",
+  "type": "estate"
+}

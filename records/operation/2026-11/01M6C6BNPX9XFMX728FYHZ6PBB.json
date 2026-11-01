@@ -1,0 +1,76 @@
+{
+  "at": "2026-11-01T18:36:13Z",
+  "body": {
+    "action": "change-merge",
+    "checks": [
+      {
+        "conclusion": "success",
+        "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+        "name": "test (macos-latest)",
+        "status": "completed"
+      },
+      {
+        "conclusion": "success",
+        "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+        "name": "test (windows-latest)",
+        "status": "completed"
+      },
+      {
+        "conclusion": "success",
+        "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+        "name": "test (ubuntu-latest)",
+        "status": "completed"
+      }
+    ],
+    "dispatchedAt": "2026-11-01T18:36:08Z",
+    "evidence": [
+      {
+        "hash": "sha256:5d295607f59bcfd87c91358423fb421dbe37d736718448aad82cee9512555c0b",
+        "location": "records/operation/2026-11/01M6C6BH4A6SZ3KS1Q9P1JEHCW.json",
+        "summary": "Checks observed before merge."
+      }
+    ],
+    "identity": "github-pull-requests:01M6C3PV4GRTA4QWDS1WC7CRNH:change-merge:3:0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+    "intent": "change-merge at the pinned head, with the declared repository and checks.",
+    "observed": {
+      "at": "2026-11-01T18:36:13Z",
+      "summary": "The host confirmed the merge of the pinned head."
+    },
+    "provider": "github-pull-requests",
+    "requiredChecks": [
+      "test (ubuntu-latest)",
+      "test (macos-latest)",
+      "test (windows-latest)"
+    ],
+    "status": "observed-success",
+    "target": {
+      "branch": "work/tally-02",
+      "destination": "Vericairn/vericairn-example-app",
+      "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+      "mergeCommit": "fa33ea036d7006c2b7d2c31a9feea5708c493078",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "productHash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+      "pullRequest": "3",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "repositoryHash": "sha256:e1651b3e8fba828905112afef3d5f3ae5e09781daa4aeae946541bb038281e1a",
+      "target": "main"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:5d7eb193b4f580879c78254853e995a84bdb73bdba311e331c881193eb0dd326",
+  "id": "01M6C6BNPX9XFMX728FYHZ6PBB",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "wZVD6VxpC5zDiTh5ytPwX0OXt0IQhXXeiU2fME8SFKJLWtrVTmmCe1sI12ZhCwxrH2Y0T1lce1jqFk1plKPczw"
+    }
+  ],
+  "subject": {
+    "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+    "type": "product"
+  },
+  "supersedes": "01M6C6BH9GXG4H68D9TGY2FC08",
+  "type": "operation"
+}

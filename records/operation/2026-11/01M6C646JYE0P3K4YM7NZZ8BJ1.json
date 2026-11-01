@@ -1,0 +1,480 @@
+{
+  "at": "2026-11-01T18:32:08Z",
+  "body": {
+    "action": "agent-run",
+    "cap": {
+      "attemptsPerStep": 2,
+      "wallMinutes": 30
+    },
+    "dispatchedAt": "2026-11-01T18:21:33Z",
+    "evidence": [
+      {
+        "hash": "sha256:20c91ae3486bd21f8e89f57aa02f49396c139a27989b9ff32ffdef55d6d989c1",
+        "summary": "The brief of work order TALLY-02, exported into the workspace as .vericairn/brief.md."
+      },
+      {
+        "summary": "Soft accounting limits: wallMinutes, tokens and currency are not guaranteed hard spending caps. The full cap remains reserved. Stop after 1788 seconds, leaving shutdown grace and heartbeat headroom; token threshold not granted of not granted; currency threshold not granted of not granted minor units (none). Tokens and currency reserve ten percent rounded up for usage in flight; a single turn or shutdown may exceed that headroom."
+      },
+      {
+        "summary": "Codex receives native rollout budget tracking at its token threshold below the reservation; tracking is not a hard limit. There is no native currency cap; unreported currency is charged in full."
+      },
+      {
+        "summary": "Launched unattended under the sponsor's custody exception 01M6C3SPGSJAMYB3SB33C1J23D, in force until 2026-12-31T00:00:00Z, while device 01M6C3MGZ6M1DFF1DYRW8S710V of an operator or of the goal's sponsor signs without its owner's presence on the machine that ran the worker."
+      },
+      {
+        "summary": "Observed by the worker on the machine that ran it at 316 heartbeats every 2 seconds, from 2026-11-01T18:21:33Z to its exit at 2026-11-01T18:32:08Z; its output is kept on that machine."
+      }
+    ],
+    "execution": {
+      "adapter": "disabled",
+      "allocation": {
+        "context": {
+          "bytes": 303142,
+          "maxBytes": null,
+          "units": "bytes"
+        },
+        "unknown": [
+          "inputTokens",
+          "outputTokens"
+        ]
+      },
+      "configuration": "codex",
+      "configurationHash": "sha256:e7b2db318619dddc37fafdbac8927cb5790c2d896db160d50395316e38db725b",
+      "contextPackage": "sha256:23b3954d85c7171adc2833464958de80161e77ca0532e84d0785abffc3f53a51",
+      "environment": {
+        "inventory": [
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:4856efe67f971b6afec9b168b01cf7125dbb8a4eb16743c21d6af49528fb6f23",
+            "id": "apply_patch",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:991d793410f9b50515342cdae9c74370149347f47449b6bf78e5e17635fe13f9",
+            "id": "clock.curr_time",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex-configuration",
+              "vericairn"
+            ],
+            "destinations": [
+              "local",
+              "openai-inference"
+            ],
+            "environment": [
+              "CODEX_HOME",
+              "DOTNET_ROOT",
+              "HOME",
+              "LANG",
+              "LOGNAME",
+              "PATH",
+              "SHELL",
+              "TERM",
+              "TMPDIR",
+              "USER",
+              "VERICAIRN_BRIEF",
+              "VERICAIRN_CONDITION",
+              "VERICAIRN_HOME",
+              "VERICAIRN_MCP_CONFIG",
+              "VERICAIRN_RUN",
+              "VERICAIRN_STOP_FILE"
+            ],
+            "hash": "sha256:9652172137928a3a5d3f9b0e940917d112adfa5d9cc7211804c95eb0b3d9d8e5",
+            "id": "codex",
+            "kind": "harness",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [],
+            "destinations": [
+              "local"
+            ],
+            "environment": [
+              "CODEX_HOME"
+            ],
+            "hash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "id": "codex-configuration",
+            "kind": "configuration",
+            "version": "run-02-v1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:f77be82b39d7558fdb8a978d8eb17b29186ac04a7468e1da46a48ad6d57c338b",
+            "id": "create_goal",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:a3382820dd1ce8f5c703e8c6b8a098d5375ddba773b47be55f4fa706e13b5aab",
+            "id": "exec_command",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:14323ab1199bcfdeb1860ac16b652b36fc6b85661ccd47a6f5458d0521ac7e3a",
+            "id": "get_goal",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:10256993448d1fc1a98adeedc04edd0e306c2320a8b607ebee0471b56074584d",
+            "id": "list_mcp_resource_templates",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:7ba976ea2b1f81fe36e6e2b18689b5a23e51c32530a986e62cd1fb176d554e0e",
+            "id": "list_mcp_resources",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:ba07277f018a93912f23292b247cf7370fede378196a451c5341640b32738254",
+            "id": "read_mcp_resource",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:c9ed1717d053785182d61a78a3880ff8039a16975c0daabb202373b7d4094c1f",
+            "id": "request_user_input",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:fe4e791f08a3f6c52c0438a5df709c36b25dc1ce1edca3c2c19380ae26b90311",
+            "id": "request_user_input_async",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:3844118cc2477c6e19c2616630e5b7c82e9da70f1f28efb06a51fd36263d1ed7",
+            "id": "send_message_to_user_async",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:bc346937fed6267e6fb1458c8b3b98b8bbcffc7de7a9fc4144d2699d7a6de0d4",
+            "id": "tool_search",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:dbe4053b6d818254e93e51b0f01b3e053bc2318aaea16cb800af3a06b9b896aa",
+            "id": "update_goal",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:8cadbc6667dd4c03cc06586c7fcb876cc93183f2bd9f8946c714b7fd4a63f8da",
+            "id": "update_plan",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:ae01352a0e088c915c0f63655d830754864775bfc8cac84dd0f663fd8395faf6",
+            "dependencies": [],
+            "destinations": [
+              "estate"
+            ],
+            "environment": [
+              "DOTNET_ROOT",
+              "VERICAIRN_HOME"
+            ],
+            "hash": "sha256:b0e42fca368e06ff984d2248798e939c58eb4becff5d087bd4293752892dea01",
+            "id": "vericairn",
+            "kind": "mcp",
+            "version": "vericairn.mcp-v1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:138d0d8f94a2d895edee0a5f5e966fa2a9698a97c5bfe5803069be08c835c33d",
+            "id": "view_image",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          },
+          {
+            "configurationHash": "sha256:4f90e1fa94fa238631cd307d2b16864cd30d60f7acbe87e341b67dd302a9570a",
+            "dependencies": [
+              "codex"
+            ],
+            "destinations": [
+              "local"
+            ],
+            "environment": [],
+            "hash": "sha256:6b12085ce9478cc4b9b12be53c6f538f44f0a10400b9c4c706cb03d2a071d381",
+            "id": "write_stdin",
+            "kind": "tool",
+            "version": "0.159.0-alpha.12.1"
+          }
+        ],
+        "inventoryHash": "sha256:e94365fb11c9ca4a2ca476ad294146e6fe560c2824c7098c13f7949ef8754d14",
+        "policy": "qualified-codex",
+        "variables": [
+          "CODEX_HOME",
+          "DOTNET_ROOT",
+          "HOME",
+          "LANG",
+          "LOGNAME",
+          "PATH",
+          "SHELL",
+          "TERM",
+          "TMPDIR",
+          "USER",
+          "VERICAIRN_BRIEF",
+          "VERICAIRN_CONDITION",
+          "VERICAIRN_HOME",
+          "VERICAIRN_MCP_CONFIG",
+          "VERICAIRN_RUN",
+          "VERICAIRN_STOP_FILE"
+        ]
+      },
+      "harnessAdmission": {
+        "kind": "baseline",
+        "launcher": "codex",
+        "probes": {
+          "configuration": "sha256:e187ea5dd4da67898f043163acb3d3387b95173c4c43976e068d45411a7d0506",
+          "flags": "sha256:6fe08ee3ae26a52e715a2d0827b405e8987afec745c219978e0fe9c9ba392c5e",
+          "login": "sha256:59b4bcb9e41db3293ce05facf73f926e7b339080cd076739cb19af837282ff56",
+          "mcp": "sha256:fa63561db0127193848890a239f3af0bba89b95cdad039c7feb5b24a0405e504",
+          "tools": "sha256:eb58700e6ba88c7927225af019668ec373546a5d5dc7870199fa87186cd13783",
+          "version": "sha256:f09d080954832722c3db6bb383128b4b3f375aa6ee3d247c34e62a6adbf33474"
+        },
+        "version": "0.159.0-alpha.12.1"
+      },
+      "harnessVersion": "0.159.0-alpha.12.1",
+      "provenance": [
+        {
+          "policy": {
+            "choices": {
+              "adapter": "disabled",
+              "dataBoundary": "worker-user",
+              "destination": "openai-inference",
+              "effort": "max",
+              "model": "gpt-6-astra",
+              "provider": "openai"
+            }
+          },
+          "scope": "launcher",
+          "source": "codex"
+        }
+      ],
+      "requested": {
+        "adapter": "disabled",
+        "dataBoundary": "worker-user",
+        "destination": "openai-inference",
+        "effort": "max",
+        "model": "gpt-6-astra",
+        "provider": "openai"
+      },
+      "resolvedRevision": "unknown",
+      "role": "builder"
+    },
+    "executionObserved": {
+      "discrepancies": [],
+      "reports": [
+        {
+          "effort": "max",
+          "model": "gpt-6-astra"
+        }
+      ],
+      "unknown": [
+        "modelRevision",
+        "provider",
+        "destination",
+        "harnessVersion",
+        "tools",
+        "inventoryHash"
+      ]
+    },
+    "identity": "agent-run:01M6C5GRX34GJXEJFZM69QVE42",
+    "intent": "Run codex as Example Builder on assignment 01M6C5GEQJ2AKXBPZNRH5BAD9A of work order TALLY-02, toward its exit question, within its cap of 30 wall minutes and 2 attempts per step.",
+    "liveness": {
+      "lastEventAt": "2026-11-01T18:32:07Z",
+      "stallSeconds": 600
+    },
+    "observed": {
+      "at": "2026-11-01T18:32:08Z",
+      "summary": "The harness exited with code 0 after 11 minutes. That it ran to its end is all this records: its claim of done is its result, which another principal reviews."
+    },
+    "provider": "codex",
+    "scope": {
+      "changed": 3,
+      "outside": [],
+      "outsideCount": 0
+    },
+    "signals": [
+      {
+        "at": "2026-11-01T18:26:46Z",
+        "attention": "01M6C5TCG8HD4H6R7G6F13E98Y",
+        "code": "audit-unverified",
+        "count": 1,
+        "fingerprint": "sha256:c6f0363f6f33912c1e26760eef4e815eabd6e1548a484f71111460309030d932",
+        "severity": "warning",
+        "summary": "The worker could not complete one or more invocation checks; completed audit verdicts still apply."
+      }
+    ],
+    "status": "observed-success",
+    "target": {
+      "assignment": "01M6C5GEQJ2AKXBPZNRH5BAD9A",
+      "branch": "work/tally-02",
+      "capMode": "soft",
+      "custodyException": "01M6C3SPGSJAMYB3SB33C1J23D",
+      "goal": "01M6C3SP39W0Z5VNJHQXQYWST6",
+      "principal": "01M6C3MHAZ58MF425SK101VQKT",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "stallSeconds": "600",
+      "watch": "{\"normalTokensPerMinute\":30000,\"burnMultiplier\":4,\"burnMinimumTokens\":10000,\"burnWindowSeconds\":60,\"burnCapPercent\":25,\"loopWarning\":5,\"loopStop\":10,\"loopWindow\":20}",
+      "watchHistoryTokensPerMinute": "104910.125",
+      "watchRoster": "01M6C3WEAS0FMSVRMEW4CHACQN",
+      "workOrder": "TALLY-02",
+      "worker": "vericairn.worker/1",
+      "workspace": "Vericairn/vericairn-example-app, branch work/tally-02"
+    },
+    "usage": {
+      "tokens": 1300383,
+      "unreported": [],
+      "wallMinutes": 11
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:0975d73fb871668800b2768823d78db8fb50d8d845e2d9863d01b86de93db04d",
+  "id": "01M6C646JYE0P3K4YM7NZZ8BJ1",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "khSPs4enumr45hPWAmCewN3dwILKazrZcKrXyFCmbiq6aR6DJDVfi-omyYqoE9e2nKH0WPMMmAYfKGfarsHehg"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:af3e7a92c0045d585551b1a5576b15898317bb9c96ac997152458de0debd7376",
+    "id": "01M6C5GEQJ2AKXBPZNRH5BAD9A",
+    "type": "assignment"
+  },
+  "supersedes": "01M6C5GTQRD8M2B94GJG3E8XZ7",
+  "type": "operation"
+}

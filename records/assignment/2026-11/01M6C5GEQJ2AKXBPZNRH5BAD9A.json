@@ -1,0 +1,68 @@
+{
+  "at": "2026-11-01T18:21:21Z",
+  "body": {
+    "brief": {
+      "expectedOutputs": [
+        "commits on work/tally-02 in the workspace repository",
+        "an attempt and a result through the vericairn MCP tools"
+      ],
+      "limits": [
+        "wall time 30 minutes, one attempt; commit as each part is done, and record the result before the cap",
+        "sandboxed: writes only inside its workspace, no network beyond the model provider",
+        "the vericairn MCP server provides work_attempt and work_result to this session: call work_attempt before any edit, even if a first look at the tool list does not show it; stop and report only if a call is refused"
+      ],
+      "outcome": "TALLY-02 built on work/tally-02, ready for review. tally (src/Tally) prints lines, words and characters for each input after TALLY-01: read src/Tally/Counter.cs, src/Tally/Program.cs, the tests and the README first. Add a --json option that prints, for each input, one JSON object on its own line with the fields path (the file's path, or null for standard input), lines, words and characters, using System.Text.Json; without --json the output is unchanged. Errors still go to standard error, never into the JSON output, and the exit code is 1 when any input could not be read while the others are still counted. Add tests for the JSON output, including standard input and an unreadable file, and describe --json in the README. Run dotnet test Tally.slnx once at the end; it must pass with warnings as errors.",
+      "permittedChanges": [
+        "path:src/**",
+        "path:tests/**",
+        "path:README.md",
+        "the estate: your own attempt and result"
+      ],
+      "prohibitedEffects": [
+        "no push, merge or publication",
+        "no change in the estate clone, and no record but your own attempt and result",
+        "no machine path, secret or model name in code, tests, documents or commit messages",
+        "never print, list, read or copy the Vericairn home or its VERICAIRN_HOME variable, including with printenv, env or echo: the worker's audit treats that as credential access and stops the run",
+        "never call create_goal, update_goal or any other goal-management tool, and never call list_mcp_resources, list_mcp_resource_templates or read_mcp_resource: the worker stops a run that invokes a tool outside its admitted inventory",
+        "no network use beyond the model provider; the test packages are already in the local package cache",
+        "never poll a log or output file while a command runs: run the tests as one blocking command and read the summary once"
+      ],
+      "recovery": "A successor reads this brief and TALLY-02, and resumes from the committed branch.",
+      "reviewCriteria": [
+        "--json prints one parseable object per input with path, lines, words and characters",
+        "path is null for standard input",
+        "Errors stay on standard error and set exit code 1 while other inputs are counted",
+        "Output without --json is unchanged",
+        "dotnet test passes with warnings as errors"
+      ],
+      "sources": [
+        {
+          "id": "01M6C3RVJQEJV4BHJRWAZ90SF2",
+          "type": "work-order"
+        }
+      ],
+      "workspace": [
+        "the worker's own workspace repository of Vericairn/vericairn-example-app on work/tally-02",
+        "the vericairn MCP server the worker configures, acting as the example builder"
+      ]
+    },
+    "contributor": "01M6C3MHAZ58MF425SK101VQKT"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:af3e7a92c0045d585551b1a5576b15898317bb9c96ac997152458de0debd7376",
+  "id": "01M6C5GEQJ2AKXBPZNRH5BAD9A",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "7ZgujUKIaQa7rbYsj_5B2wXIQhQojmhAdqAcZbtPyicCHnHtkwrVkMm07Orld3OEvrSKeocdRK2zXe4RX-71mw"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:89238a85bb1253ea8ecb9ae6f56517fa11e1b224b5d338baf7f52619994aa657",
+    "id": "01M6C3RVJQEJV4BHJRWAZ90SF2",
+    "type": "work-order"
+  },
+  "type": "assignment"
+}

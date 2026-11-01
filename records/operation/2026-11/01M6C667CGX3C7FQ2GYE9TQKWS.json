@@ -1,0 +1,54 @@
+{
+  "at": "2026-11-01T18:33:14Z",
+  "body": {
+    "action": "change-push",
+    "dispatchedAt": "2026-11-01T18:33:14Z",
+    "evidence": [],
+    "identity": "github-pull-requests:01M6C3PV4GRTA4QWDS1WC7CRNH:change-push:work/tally-02:0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+    "intent": "change-push at the pinned head, with the declared repository and checks.",
+    "provider": "github-pull-requests",
+    "requiredChecks": [
+      "test (ubuntu-latest)",
+      "test (macos-latest)",
+      "test (windows-latest)"
+    ],
+    "scan": {
+      "findingCount": 0,
+      "range": "141603250c7098cdd0867c91f68bae4a967ed966..0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+      "tool": "gitleaks",
+      "verdict": "passed",
+      "version": "8.30.1; rules sha256:0c574f0937f241a06df98172bba3957598357a9f653ec6dfb40f17996d353ac7"
+    },
+    "status": "dispatched",
+    "target": {
+      "base": "141603250c7098cdd0867c91f68bae4a967ed966",
+      "branch": "work/tally-02",
+      "destination": "Vericairn/vericairn-example-app",
+      "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "productHash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+      "remoteHead": "",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "repositoryHash": "sha256:e1651b3e8fba828905112afef3d5f3ae5e09781daa4aeae946541bb038281e1a",
+      "target": "main",
+      "targetHead": "141603250c7098cdd0867c91f68bae4a967ed966"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:578168ff0d8ab83ea3f7b447aee90746ce4a8318e28fb5173cb97b77bcbc2051",
+  "id": "01M6C667CGX3C7FQ2GYE9TQKWS",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "MwC2yWeGXq1I7Vcah1HeypGnFxv_WjQr3UZpE5rtJN9TQlGaLJj-qwcCGTqYYtOcbZUt62ug_kxLkufsTeeClw"
+    }
+  ],
+  "subject": {
+    "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+    "type": "product"
+  },
+  "supersedes": "01M6C66689K9469C8R634M4EV4",
+  "type": "operation"
+}

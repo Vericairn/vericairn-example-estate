@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-01T18:17:16Z",
+  "body": {
+    "findings": [
+      {
+        "severity": "info",
+        "summary": "The result is partial only because the sandbox denied the test runner's local socket; the suite passes outside it and on every platform's check."
+      }
+    ],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "TALLY-01's second attempt: yes to the exit question. tally prints the lines, words and characters of files and of standard input, decoding both as UTF-8 on every platform; tests cover empty input, input without a final line break, text outside ASCII, a byte-order mark and an unreadable file; the README describes the output and the counting rules. The reviewer ran all 54 tests, and the pull request's checks pass on Linux, macOS and Windows at e696403."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:c46a065d0d48bc82c5d596a0833051eba280694b4003dde5851ff3a4ded31e6a",
+  "id": "01M6C58Z1RBEDFSP7T9G6TMJZN",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "2Nh5sKUrAruy2zwJVQ2hdUwGMGeD0jXg07-tcxNqTTzaxSv2TWAzEcwORpLbNyFowHaGAYhKiVsGBUd0c9Sx0g"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:94ac0846e6e6029c69019cfc0cd4a7dc467a37d4e70d58c6de8e47c0cab24bf5",
+    "id": "01M6C54XG5QA41H3Q6KQ9M4M6S",
+    "type": "result"
+  },
+  "type": "review"
+}

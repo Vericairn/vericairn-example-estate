@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-01T18:07:41Z",
+  "body": {
+    "checks": [
+      "matches-generator",
+      "links-resolve"
+    ],
+    "generator": {
+      "id": "vericairn.records/releases",
+      "inputs": [
+        "format=1",
+        "audience=Internal",
+        "selection=all-revisions"
+      ]
+    },
+    "kind": "generated",
+    "pathPattern": "docs/registers/releases/{month}/{date}-{slug}-{id}.md",
+    "source": "estate-file",
+    "summary": "Every revision of every release record, one generated file each.",
+    "title": "The releases register",
+    "triggers": []
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:29ed1ae5dcfedb385a5ed2bee3644efbebe0fc0f3f58431a5cd41db8661b27a7",
+  "id": "01M6C4QDHNNNJ723R7GAHRN2NQ",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "DTSIRVxYmPTGaAC-u1cnSaHG6H5VAzQm-ni6eYNuC9dmQUJuWwkdv8tfZoqoSHvpzPMzhEsDXWiPYefUiU6gwQ"
+    }
+  ],
+  "type": "living-document"
+}

@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-01T17:51:27Z",
+  "body": {
+    "expires": "2026-12-31T00:00:00Z",
+    "reason": "A demonstration estate: the demonstration operator's key is an owner-only file without presence on the machine that runs the example's agents, by design; no real person's key signs here."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:30f6bf8ee87b3412d48f5aae0f91f4ad9f1e47698457ed8d6c37b4422290a930",
+  "id": "01M6C3SPGSJAMYB3SB33C1J23D",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "z9fN6E28oEDgqGavSoUic8ZeQqZgO7CFPQ16zjn8ktLPD-v7eGlRQpQPb617kVeCfesg1XngBdxuaqoDh4CpRA"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:2f984bca3117625e73d98c8b5777997e5e6b214c6cf69e8acca7782965fa2d88",
+    "id": "01M6C3SP39W0Z5VNJHQXQYWST6",
+    "type": "goal"
+  },
+  "type": "custody-exception"
+}

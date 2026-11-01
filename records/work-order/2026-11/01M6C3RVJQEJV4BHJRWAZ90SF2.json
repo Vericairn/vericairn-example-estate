@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-01T17:50:59Z",
+  "body": {
+    "after": [
+      "01M6C3RBZ4E49HYN18SN6DY33Q"
+    ],
+    "deliverables": [
+      "A pull request to vericairn-example-app, merged after its checks pass on Linux, macOS and Windows"
+    ],
+    "exitQuestion": "Does tally --json print one parseable object per input with its counts, tested, with errors still on standard error?",
+    "inputs": [],
+    "intent": "Scripts that use tally need its counts in a form they can parse without splitting text.",
+    "key": "TALLY-02",
+    "kind": "ordinary",
+    "placement": {
+      "carrier": "01M6C3RTS21YXHSZ5TA4215D3B",
+      "kind": "release",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "version": "0.1.0"
+    },
+    "scope": [
+      "--json prints one JSON object per input, with path (null for standard input), lines, words and characters",
+      "Errors still go to standard error, and the exit code is 1 when any input could not be read",
+      "Tests for the JSON output, including standard input and an unreadable file",
+      "The README describes --json"
+    ],
+    "title": "Machine-readable counts with --json"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:89238a85bb1253ea8ecb9ae6f56517fa11e1b224b5d338baf7f52619994aa657",
+  "id": "01M6C3RVJQEJV4BHJRWAZ90SF2",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "726vH-DrDlVr9pB1vZaFqHk5t8mC8fmgl8FOE9sHTLxwua4k5NX104bkH3zz0X5HxLDEHyLmWNpaiViJpiCB7w"
+    }
+  ],
+  "supersedes": "01M6C3RC5C6DGY2KQYWEH5R3QW",
+  "type": "work-order"
+}

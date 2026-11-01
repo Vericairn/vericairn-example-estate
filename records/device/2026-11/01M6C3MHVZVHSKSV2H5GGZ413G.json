@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-01T17:48:38Z",
+  "body": {
+    "algorithm": "ecdsa-p256-sha256",
+    "custody": "file-owner-only",
+    "name": "Example Reviewer's key",
+    "platform": "macos",
+    "presence": "none",
+    "principal": "01M6C3MHGPZKANNT7JYJ22XTXN",
+    "profiles": [
+      "embedded"
+    ],
+    "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhM0_U2xcjSSop3UHXWO85OznJTp6KJpqfNOqFY4tGarWevrh7x3CiWeXa3bZ9kgMEY3Jzmpdf2G3Os0GNdWmqg",
+    "purpose": "signing"
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:26737aef856dcb9fdbc9717afb0186692fcf40b01c4db4adf7edb7b49546172c",
+  "id": "01M6C3MHVZVHSKSV2H5GGZ413G",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "Ej_urxl6fP0YiVuOy5Du4CEs7r9nz8MXHS4Sdxz_84jehzrvx0waqox8SoTtHaPxGdK3gmnfjVX1rNlX1jJVdA"
+    }
+  ],
+  "type": "device"
+}

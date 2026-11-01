@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-01T17:51:27Z",
+  "body": {
+    "note": "Activate the example's two steps, one run at a time, within the stated budget.",
+    "status": "active"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:9c158d376df70bce9c9828d0c1716ab05d70d55eb956ac5afe9ab98073bece89",
+  "id": "01M6C3SPA1N8FNRCAEZXN0DV04",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "XO2TWPltZfda3C9OlqJdVU9MKDR3WJsB6VceBIpYLmjWosaNqo-PWH-sLEdRkKANszFD4nkjworsyrpp9-Dbdg"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:2f984bca3117625e73d98c8b5777997e5e6b214c6cf69e8acca7782965fa2d88",
+    "id": "01M6C3SP39W0Z5VNJHQXQYWST6",
+    "type": "goal"
+  },
+  "type": "goal-status"
+}

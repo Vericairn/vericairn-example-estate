@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-01T18:33:22Z",
+  "body": {
+    "action": "change-open",
+    "dispatchedAt": "2026-11-01T18:33:18Z",
+    "evidence": [],
+    "identity": "github-pull-requests:01M6C3PV4GRTA4QWDS1WC7CRNH:change-open:work/tally-02:0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+    "intent": "change-open at the pinned head, with the declared repository and checks.",
+    "observed": {
+      "at": "2026-11-01T18:33:22Z",
+      "summary": "The host confirmed the opened pull request at the requested head."
+    },
+    "provider": "github-pull-requests",
+    "requiredChecks": [
+      "test (ubuntu-latest)",
+      "test (macos-latest)",
+      "test (windows-latest)"
+    ],
+    "status": "observed-success",
+    "target": {
+      "branch": "work/tally-02",
+      "contentHash": "sha256:4e4f93ee21717c7565c1cb6c8fca630a7d5082e6859ffc7e1205806142e040a2",
+      "destination": "Vericairn/vericairn-example-app",
+      "head": "0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "productHash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+      "pullRequest": "3",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "repositoryHash": "sha256:e1651b3e8fba828905112afef3d5f3ae5e09781daa4aeae946541bb038281e1a",
+      "target": "main"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:6e5a605e21d06049376d9a1be008d7c810350626a8cca3dfcd661d89323c3088",
+  "id": "01M6C66EX7NFMFT338H3DXMQCS",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "4qqSMyBlXOGw9NDmPgO95AI28c0TyCmOz62LV6M0x18XXEg9XaV7wceiRaDCBE7kvqQJ_KIQemXSHlryO9wLrQ"
+    }
+  ],
+  "subject": {
+    "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+    "type": "product"
+  },
+  "supersedes": "01M6C66B289P9F26H7ZR4J8PKF",
+  "type": "operation"
+}

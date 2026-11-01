@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-01T17:48:38Z",
+  "body": {
+    "agent": {
+      "product": "Claude Code",
+      "vendor": "Anthropic"
+    },
+    "kind": "agent",
+    "name": "Example Reviewer",
+    "roles": [
+      "reviewer"
+    ]
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:d9cb3062925f31d5bcfd736fe43798d771c3378b57308de1b9cdae9943c54d97",
+  "id": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "aXouzdmKYSXeT_UTfcexIsDphMVxxjvwTeWhewvhrkNPPE3WTZcHAv1ewG7eDu-dH0BABuro5_FB65sqfX6Ykw"
+    }
+  ],
+  "type": "principal"
+}

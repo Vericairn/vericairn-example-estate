@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-01T17:48:38Z",
+  "body": {
+    "algorithm": "ecdsa-p256-sha256",
+    "custody": "file-owner-only",
+    "name": "Example Builder's key",
+    "platform": "macos",
+    "presence": "none",
+    "principal": "01M6C3MHAZ58MF425SK101VQKT",
+    "profiles": [
+      "embedded"
+    ],
+    "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7X2U851NPlvmTR_1Wjto4lQKhtkyACm5-xVtxtmiZZZkBUmudtqhOwsCFqokUQek-EczlPCwQFe7eeoJk3CjRA",
+    "purpose": "signing"
+  },
+  "by": "01M6C3MHAZ58MF425SK101VQKT",
+  "format": "vericairn.record/3",
+  "hash": "sha256:c819f2e27c2cef89a32d86264c87730ed2f95500c58a3aa22e99a575643faf04",
+  "id": "01M6C3MHPANK0D9PT4KRA6KRMT",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHPANK0D9PT4KRA6KRMT",
+      "signature": "h88pWKTd9yUKqbx_dqSRZio40bXV7UOXweW4uiz0PjMIHoHvkFVK4BKDYrNLUa8HiIOH6ClIMCPNg5RWVM8Wvg"
+    }
+  ],
+  "type": "device"
+}

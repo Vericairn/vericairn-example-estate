@@ -1,0 +1,95 @@
+{
+  "at": "2026-11-01T18:15:03Z",
+  "body": {
+    "checks": [
+      {
+        "name": "Lines, words and characters printed in order for files and standard input",
+        "outcome": "passed",
+        "summary": "Direct CLI verification passed for exact output from files and standard input, including file paths and argument order."
+      },
+      {
+        "name": "Words are runs of non-whitespace; characters are Unicode scalar values",
+        "outcome": "passed",
+        "summary": "Direct checks passed for Unicode whitespace, a zero-width space within a word, accented letters, Chinese text, supplementary Unicode characters and combining marks."
+      },
+      {
+        "name": "Tests cover empty input, no final line break and non-ASCII text",
+        "outcome": "passed",
+        "summary": "Reviewed the existing unit and CLI tests and added Unicode input without a final newline to both CLI input modes plus a UTF-8 BOM stdin regression. The test project compiled. The test runner did not execute these tests in this attempt."
+      },
+      {
+        "name": "README describes output",
+        "outcome": "passed",
+        "summary": "README specifies lines words characters order, file path suffixes, counting rules and error behavior. Added UTF-8 default decoding and BOM behavior. Both README output examples passed direct CLI verification."
+      },
+      {
+        "name": "dotnet test passes with warnings as errors",
+        "outcome": "failed",
+        "summary": "Invoked once as DOTNET_CLI_TELEMETRY_OPTOUT=1 DOTNET_CLI_WORKLOAD_UPDATE_NOTIFY_DISABLE=true dotnet test Tally.slnx --configuration Release --disable-build-servers -m:1 -warnaserror -p:UseSharedCompilation=false -p:BuildInParallel=false -p:RestoreSources=. -p:NuGetAudit=false. Restore used local sources, and both projects compiled. Exit status 1: System.Net.Sockets.SocketException (13), Permission denied, while VSTest SocketServer.Start tried to bind its local communication socket. Test Run Aborted; no tests executed."
+      },
+      {
+        "name": "Direct CLI verification",
+        "outcome": "passed",
+        "summary": "34 checks ran with zero failures against the Release executable: 16 inputs each through stdin and a file, plus argument ordering and unreadable-file continuation. Covered empty text, final newline present and absent, CRLF, whitespace, Unicode scalars, Unicode word separators, UTF-8 BOM, paths with spaces and README examples."
+      },
+      {
+        "name": "Permitted changes and local commit",
+        "outcome": "passed",
+        "summary": "Committed source, CLI tests and README changes as e696403e0f3c6872ad9e7d169d3c68163e855104. git diff 39589d9..HEAD --check passed. The work/tally-01 working tree is clean, and the complete change from the starting point touches only README.md, src/Tally/Counter.cs, src/Tally/Program.cs, tests/Tally.Tests/CounterTests.cs and tests/Tally.Tests/CliTests.cs. No push, merge or publication occurred."
+      }
+    ],
+    "evidence": [],
+    "limitations": [
+      "The required passing dotnet test result remains outstanding because the sandbox denied the test runner's local communication socket. The command was not retried.",
+      "Direct execution was local to macOS; Windows and Linux were not run in this attempt. The Windows encoding finding was addressed in code but requires platform verification.",
+      "Package sources were restricted to local storage and NuGet audit was disabled to honor the offline constraint."
+    ],
+    "nextStep": "Review local commit e696403e0f3c6872ad9e7d169d3c68163e855104 and run the complete suite with warnings as errors in an authorized environment that permits VSTest local communication, including Windows verification of redirected UTF-8 stdin. No push, merge or publication is authorized.",
+    "outcome": "partial",
+    "outputs": [
+      {
+        "hash": "sha256:2a64d02a4d0f5bd8d6023e4bc6d8c7288829d5ed5bfb1ce8c72bc6a61a51de88",
+        "name": "README.md"
+      },
+      {
+        "hash": "sha256:3f784acd8c57aa67c3d9e61b3a1b56f72295822ef1aeed20901484c7020c7277",
+        "name": "src/Tally/Counter.cs"
+      },
+      {
+        "hash": "sha256:3ae29b6ab824445b7a8d5f51da069eacf247b9bcd5448b450fc9ada7994ece03",
+        "name": "src/Tally/Program.cs"
+      },
+      {
+        "hash": "sha256:fb7f54baded65c57c01712f2bb28b57e2c7314b4f75f599789eb73f066d088f3",
+        "name": "tests/Tally.Tests/CliTests.cs"
+      },
+      {
+        "hash": "sha256:9978de7124736622426db12d8eb1868732352dd090a3639d1c409b92448b8039",
+        "name": "tests/Tally.Tests/CounterTests.cs"
+      },
+      {
+        "hash": "sha256:4402e7596f0e379378d327c60e7a4a88111db9366943829b830a8a6d719fa2e7",
+        "name": "Committed patch from 39589d9 to e696403"
+      }
+    ],
+    "summary": "Addressed the review finding for TALLY-01 in local commit e696403e0f3c6872ad9e7d169d3c68163e855104 on work/tally-01. Standard input now uses an explicit UTF-8 StreamReader with byte-order-mark detection instead of the platform console encoding. Added CLI coverage for non-ASCII text without a final line break and a UTF-8 byte-order mark, and documented decoding in the README. Existing line, word and Unicode scalar counts and file-error handling are preserved. App and test projects compiled with warnings as errors, and all 34 direct CLI checks passed. The single required dotnet test invocation aborted before test execution because the sandbox denied VSTest's local socket; the full suite is not claimed to pass.",
+    "unresolvedEffects": []
+  },
+  "by": "01M6C3MHAZ58MF425SK101VQKT",
+  "format": "vericairn.record/3",
+  "hash": "sha256:94ac0846e6e6029c69019cfc0cd4a7dc467a37d4e70d58c6de8e47c0cab24bf5",
+  "id": "01M6C54XG5QA41H3Q6KQ9M4M6S",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHPANK0D9PT4KRA6KRMT",
+      "signature": "tqdaQ4O9PlBmVyd7RlIwCCoxnBBLrKnxZ4BMDOjMCtxbNrlgrYO2bo4i1VBjL7shYxR75IIkItuN_zYrXuRxhA"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:d708293900a52f23a9638b2141dfac3d8ba472c0b7bff8bdad0993c57f7298a3",
+    "id": "01M6C4XEAXB9C7AR3TCS66E0JB",
+    "type": "attempt"
+  },
+  "type": "result"
+}
