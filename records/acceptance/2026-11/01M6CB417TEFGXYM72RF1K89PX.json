@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-01T19:59:25Z",
+  "body": {
+    "basis": [
+      "01M6CB40VH5887Q7ASP2ZRSZ8D"
+    ],
+    "self": true,
+    "statement": "REL-01 is done: tally 0.1.0 is published, on the example reviewer's review 01M6CB40VH5887Q7ASP2ZRSZ8D."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:64f7706d4611a53b40e35ab4a17624e377b34a7af8d752f59e410e528a39f531",
+  "id": "01M6CB417TEFGXYM72RF1K89PX",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "AwAS1pNo33IPCndNbIWtrC2TaLpTG6nBVrIhg07za-BYK2Nsdtz6bVpUChpiqm9ofinHnZwyR8CJnnlbQ3E_2A"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:fa3d701a4ee3bee9838bd7f962e61fb0678afc8f28c89b434e86b7da4fe4bf93",
+    "id": "01M6C3RV1BK1BX8EFH67S5G27D",
+    "type": "work-order"
+  },
+  "type": "acceptance"
+}
