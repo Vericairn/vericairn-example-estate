@@ -1,0 +1,33 @@
+name: check
+
+# Cold start on every change: a fresh clone fetches the pinned Vericairn release through the bootstrap,
+# verifies it against the manifest's hash and checks the whole estate, on Linux, macOS and Windows.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cold-start:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check the estate with its pinned release
+        if: runner.os != 'Windows'
+        run: ./bootstrap estate check
+      - name: Check the estate with its pinned release
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./bootstrap.ps1 estate check

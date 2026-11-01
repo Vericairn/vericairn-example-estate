@@ -1,0 +1,54 @@
+{
+  "at": "2026-11-01T18:17:43Z",
+  "body": {
+    "action": "change-observe",
+    "checks": [],
+    "dispatchedAt": "2026-11-01T18:17:43Z",
+    "evidence": [],
+    "identity": "github-pull-requests:01M6C3PV4GRTA4QWDS1WC7CRNH:change-merge:2:e696403e0f3c6872ad9e7d169d3c68163e855104:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d:observe:01M6C59SKQ026EYX7HA8RTMK3G",
+    "intent": "change-observe at the pinned head, with the declared repository and checks.",
+    "observed": {
+      "at": "2026-11-01T18:17:43Z",
+      "summary": "The host observation was recorded; missing facts and incomplete inventories remain uncertain."
+    },
+    "provider": "github-pull-requests",
+    "requiredChecks": [
+      "test (ubuntu-latest)",
+      "test (macos-latest)",
+      "test (windows-latest)"
+    ],
+    "status": "observed-success",
+    "target": {
+      "complete": "true",
+      "destination": "Vericairn/vericairn-example-app",
+      "head": "e696403e0f3c6872ad9e7d169d3c68163e855104",
+      "mergeCommit": "141603250c7098cdd0867c91f68bae4a967ed966",
+      "observation": "target-run",
+      "observedHead": "141603250c7098cdd0867c91f68bae4a967ed966",
+      "observedTarget": "main",
+      "operation": "01M6C59SHPY0210RFWD67FXQ44",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "productHash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "repositoryHash": "sha256:e1651b3e8fba828905112afef3d5f3ae5e09781daa4aeae946541bb038281e1a",
+      "target": "main"
+    }
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:d08baddb7af2f117fee35643ebd901331e09f9f55d86b09e413b0debcedace6f",
+  "id": "01M6C59T6R96T9ZRKQVCSV1NH8",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "uDSj22c8xeTeAT07TsTskm0G7XIosyCi-wSpl6d0rtOqBx7zRy-6D--wEJRwOebIx4IwCEeAy6XMR-5w9WkwDg"
+    }
+  ],
+  "subject": {
+    "id": "01M6C59SHPY0210RFWD67FXQ44",
+    "type": "operation"
+  },
+  "supersedes": "01M6C59SQ7WTGH7GM9J6H0KAY0",
+  "type": "operation"
+}

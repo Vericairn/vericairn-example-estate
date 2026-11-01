@@ -1,0 +1,93 @@
+{
+  "at": "2026-11-01T18:31:43Z",
+  "body": {
+    "checks": [
+      {
+        "name": "One parseable JSON object per input with path, lines, words and characters",
+        "outcome": "passed",
+        "summary": "Direct execution verified exact parsed field sets and integer counts, one object per line, file argument order and a nested Unicode path containing spaces and an ampersand. CLI tests assert parsed JSON fields and values with System.Text.Json."
+      },
+      {
+        "name": "Standard input path is null",
+        "outcome": "passed",
+        "summary": "Direct JSON checks passed for ten stdin inputs, including empty text, Unicode scalars, Unicode whitespace, combining marks, CRLF and a UTF-8 byte-order mark. Parsed stdin objects have path:null."
+      },
+      {
+        "name": "Errors stay on standard error with exit code 1 while other inputs are counted",
+        "outcome": "passed",
+        "summary": "Direct checks passed for missing-file and directory inputs between readable files, in JSON and plain text modes. Standard output contains only successful counts and later inputs are processed. An unreadable file alone produces no standard output and exits 1."
+      },
+      {
+        "name": "Output without --json is unchanged",
+        "outcome": "passed",
+        "summary": "Exact plain text output passed for ten stdin inputs, ordered files and both unreadable-input cases. Existing plain text CLI tests remain unchanged."
+      },
+      {
+        "name": "README describes --json",
+        "outcome": "passed",
+        "summary": "README documents newline-separated objects, all four fields, numeric counts, null stdin paths, option placement, error behavior and file/stdin examples."
+      },
+      {
+        "name": "dotnet test passes with warnings as errors",
+        "outcome": "failed",
+        "summary": "Invoked once: dotnet test Tally.slnx --configuration Release -p:TreatWarningsAsErrors=true -p:RestoreSources=. -p:NuGetAudit=false, with telemetry and workload update notifications disabled. MSBuild reported MSB1025 and System.Net.Sockets.SocketException (13), Permission denied, while binding its local named-pipe socket. Cancellation was requested after repeated socket failures; the command exited 1. No tests executed or passing test summary was produced."
+      },
+      {
+        "name": "Release build with warnings as errors",
+        "outcome": "passed",
+        "summary": "dotnet build Tally.slnx --configuration Release --disable-build-servers -m:1 -nodeReuse:false -p:UseSharedCompilation=false -p:TreatWarningsAsErrors=true -p:RestoreSources=. -p:NuGetAudit=false completed with exit code 0, zero warnings and zero errors. Both the app and test project compiled using cached packages and local package sources."
+      },
+      {
+        "name": "Direct CLI verification",
+        "outcome": "passed",
+        "summary": "One blocking verification command ran 27 direct CLI checks against the Release assembly, with zero failures. Covered JSON schema and integer counts, stdin null paths, Unicode and BOM handling, file order and paths, error isolation, continuation, no output for failed-only input and plain text regression."
+      },
+      {
+        "name": "Permitted changes and local commit",
+        "outcome": "passed",
+        "summary": "git diff --check passed. Commit 0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc changes only src/Tally/Program.cs, tests/Tally.Tests/CliTests.cs and README.md. The work/tally-02 working tree is clean. No push, merge or publication occurred."
+      }
+    ],
+    "evidence": [],
+    "limitations": [
+      "A passing dotnet test result remains outstanding because sandbox restrictions denied local communication sockets. The test command was not retried.",
+      "Direct CLI checks and compilation were local to macOS; Linux and Windows verification was not performed.",
+      "Package sources were restricted to local storage, with NuGet audit and update notifications disabled for offline operation."
+    ],
+    "nextStep": "Review local commit 0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc and run the complete suite with warnings as errors in an authorized environment permitting MSBuild and VSTest local communication sockets. Cross-platform verification remains for the reviewer. No push, merge or publication is authorized.",
+    "outcome": "partial",
+    "outputs": [
+      {
+        "hash": "sha256:924ccdd0b3a0dbbf4b59a0ecd5e8fa339d37844726b651b03ce4a550e1c552f0",
+        "name": "src/Tally/Program.cs"
+      },
+      {
+        "hash": "sha256:b65c34e832f9f05a84dbacfb7b348706a30355fee48c2aa414dbeb3d6def9e4d",
+        "name": "tests/Tally.Tests/CliTests.cs"
+      },
+      {
+        "hash": "sha256:53e09df0d8a3edb032ef50f72dee6763d4450157291b2b49436df8232ea5e54b",
+        "name": "README.md"
+      }
+    ],
+    "summary": "Implemented TALLY-02 in local commit 0fa6f8b16dcb543f9b072a20cbf6ce6718b502cc on work/tally-02. tally --json uses System.Text.Json to print one object per readable input with path, lines, words and characters; stdin uses a null path. Plain text output and per-file error handling are preserved. Added nine JSON CLI test cases and README examples. The Release build completed with zero warnings and errors, and 27 direct CLI checks passed. The single dotnet test invocation failed before test execution because the sandbox denied MSBuild's local communication socket, so the required passing suite remains outstanding.",
+    "unresolvedEffects": []
+  },
+  "by": "01M6C3MHAZ58MF425SK101VQKT",
+  "format": "vericairn.record/3",
+  "hash": "sha256:eb26df61952a7a8befa61dec4704dc52b0083a553780fbad2c4d2b188fb423b0",
+  "id": "01M6C63EGPWMFEAKZP0A4ZMDJD",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHPANK0D9PT4KRA6KRMT",
+      "signature": "0BRvTjn2AHDKFl8XTktzPMaXeIoOTiZzhJC86bI_kLu4J68PsUlBacx6G0rc3WVvUTN1xICPWanBJeowRIYouA"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:52ead22e757b0a6493e75e6c1360354cbd7b4d503fa2edd83002ef810f44c54a",
+    "id": "01M6C5HZJVYM922NKXD532W7XH",
+    "type": "attempt"
+  },
+  "type": "result"
+}

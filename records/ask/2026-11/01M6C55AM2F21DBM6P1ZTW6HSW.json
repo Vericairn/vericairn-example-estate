@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-01T18:15:16Z",
+  "body": {
+    "consequence": "This warning does not stop the run. The observation remains for review; continued looping or abnormal spending may reach a critical threshold.",
+    "goal": "01M6C3SP39W0Z5VNJHQXQYWST6",
+    "question": "Run 01M6C4WDJ13C584WT8FKBN5Y77 [audit-unverified/warning] needs attention at 2026-11-01T18:11:07Z: The worker could not complete one or more invocation checks; completed audit verdicts still apply. Inspect the run?",
+    "recommendation": "No longer needed: run 01M6C4WDJ13C584WT8FKBN5Y77 settled as observed-success in operation 01M6C55AM1RA5BWXS0CTEVQ4VJ. Its worker observations remain available for review.",
+    "state": "withdrawn",
+    "to": "01M6C3K49V7R6YXHJE04YRZ2MM"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:fa077f11fbf5340eb89e93c55d6dc66c2dc8267592846fdab67a8ae873e7ba17",
+  "id": "01M6C55AM2F21DBM6P1ZTW6HSW",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "3MZkXNQJzP6RYVfqHT6ufCg4Q6wScMCidngEbZ_mDF5Rhihzwuylg8y5MAw4wzllu2zxCWBxGX1utoBTmbmx0Q"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:5c8c22255384c4471c0e8ee89542b1b840d66bdbd2309a6daa650f8e8172721a",
+    "id": "01M6C55AM1RA5BWXS0CTEVQ4VJ",
+    "type": "operation"
+  },
+  "supersedes": "01M6C4XRM4NJP3YYJ7FVRRK7KF",
+  "type": "ask"
+}

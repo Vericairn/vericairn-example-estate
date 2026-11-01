@@ -1,0 +1,110 @@
+{
+  "at": "2026-11-01T18:04:44Z",
+  "body": {
+    "checks": [
+      {
+        "name": "Lines, words and characters printed in order for files and standard input",
+        "outcome": "passed",
+        "summary": "Direct CLI checks verified exact output, including file paths."
+      },
+      {
+        "name": "Words are runs of non-whitespace; characters are Unicode scalar values",
+        "outcome": "passed",
+        "summary": "Direct CLI checks covered Unicode separators, supplementary characters and combining marks."
+      },
+      {
+        "name": "Tests cover empty input, no final line break and non-ASCII text",
+        "outcome": "passed",
+        "summary": "Committed unit and CLI tests cover these cases and compiled without warnings; direct CLI checks passed."
+      },
+      {
+        "name": "README describes output",
+        "outcome": "passed",
+        "summary": "README documents field order, counting rules and examples; both examples were checked."
+      },
+      {
+        "name": "dotnet test passes with warnings as errors",
+        "outcome": "failed",
+        "summary": "The single invocation exited 1 before test execution because the sandbox denied an MSBuild IPC socket."
+      },
+      {
+        "name": "Permitted changes and local commits",
+        "outcome": "passed",
+        "summary": "Clean work/tally-01 branch; only source, tests and README changed. No push, merge or publication."
+      },
+      {
+        "name": "Release build with warnings as errors",
+        "outcome": "passed",
+        "summary": "dotnet build Tally.slnx --configuration Release --disable-build-servers -m:1 -warnaserror -p:UseSharedCompilation=false -p:BuildInParallel=false -p:RestoreSources=. -p:NuGetAudit=false exited 0 with 0 warnings and 0 errors."
+      },
+      {
+        "name": "Direct CLI verification",
+        "outcome": "passed",
+        "summary": "30 direct CLI checks passed with 0 failures, covering files and standard input, output order, empty input, no final newline, Unicode whitespace, non-ASCII text, supplementary Unicode characters, combining marks, multiple files, missing-file errors and both README examples."
+      },
+      {
+        "name": "Required test invocation",
+        "outcome": "failed",
+        "summary": "dotnet test Tally.slnx --configuration Release --disable-build-servers -warnaserror -p:RestoreSources=. -p:NuGetAudit=false was invoked once and exited 1 after MSB1025 / SocketException (13): Permission denied while creating an MSBuild named-pipe socket. Cancellation was requested after repeated worker startup failures. No test execution summary was produced."
+      },
+      {
+        "name": "Commit history and scope",
+        "outcome": "passed",
+        "summary": "Local commits: 1100b7d9e125b000b144670b040bf636ea9bedc3 (counts and unit tests), 61d2a80583685aa676ad7a7e0509eb3ee2228741 (CLI output and integration tests), ada666b557165b2b9b2dad17d7306e60d657f06f (README). git diff 39589d9..HEAD --check passed. The working tree is clean and all five changed files are within src/**, tests/** or README.md."
+      }
+    ],
+    "evidence": [],
+    "limitations": [
+      "The full xUnit suite was compiled but not executed by dotnet test. Its required passing result remains outstanding.",
+      "Validation was local to macOS; Linux and Windows checks were not run.",
+      "Package sources were restricted to local storage and NuGet audit was disabled to keep restoration offline."
+    ],
+    "nextStep": "Run dotnet test Tally.slnx with warnings as errors in an authorized environment that permits the test runner's local IPC, then review the three local commits. No push, merge or publication is authorized by this assignment.",
+    "outcome": "partial",
+    "outputs": [
+      {
+        "hash": "sha256:a1f636dc71da86e82e981da11414eb796c538439d9c49183a92b8a908a9e0dcf",
+        "name": "README.md"
+      },
+      {
+        "hash": "sha256:3f784acd8c57aa67c3d9e61b3a1b56f72295822ef1aeed20901484c7020c7277",
+        "name": "src/Tally/Counter.cs"
+      },
+      {
+        "hash": "sha256:b2020ce405bd931321bfdf022c69c9c94002576b1381254001159058e3d20693",
+        "name": "src/Tally/Program.cs"
+      },
+      {
+        "hash": "sha256:c8b073c1059247bb5df8577037c8ba4dac5dd1efb5c2e933ffd0ff6f05994786",
+        "name": "tests/Tally.Tests/CliTests.cs"
+      },
+      {
+        "hash": "sha256:9978de7124736622426db12d8eb1868732352dd090a3639d1c409b92448b8039",
+        "name": "tests/Tally.Tests/CounterTests.cs"
+      },
+      {
+        "hash": "sha256:2321fb1c09f08b0b328b71a5013b830418a15c4364aef92f4694c8ed8cc06f05",
+        "name": "Committed patch from 39589d9 to ada666b557165b2b9b2dad17d7306e60d657f06f"
+      }
+    ],
+    "summary": "Implemented TALLY-01 in Vericairn/vericairn-example-app on work/tally-01, committed through ada666b557165b2b9b2dad17d7306e60d657f06f. tally prints lines, words and Unicode scalar characters for files and standard input; file errors retain stderr output, exit status 1 and continued processing. Added unit and CLI tests and documented the output and counting rules. A Release build passed with warnings as errors and 30 direct CLI checks passed. The required dotnet test invocation failed before tests ran because the sandbox denied MSBuild's local IPC socket; no claim that the full test suite passed.",
+    "unresolvedEffects": []
+  },
+  "by": "01M6C3MHAZ58MF425SK101VQKT",
+  "format": "vericairn.record/3",
+  "hash": "sha256:b1087e18041f442ab2c95d82a04c9222de7d76277627a1cc70e5b01ad71dd95d",
+  "id": "01M6C4J1BRQ3KQ1WQCPQMWQ6BG",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHPANK0D9PT4KRA6KRMT",
+      "signature": "qD2HRGK2RVAKVfgHUfpV1zXca3Ty3LFXoulLmf5cTNdEGf4IfHKCryfe2rMVjj9CoFCax8XzW0xRMoEBLqZJFg"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:b6015e1292fddd53746f7a2b4b34d071b011b7fc8765c5ce0ae692c72f7dc235",
+    "id": "01M6C3XMNWH1CQ6P64NDSFR3ZV",
+    "type": "attempt"
+  },
+  "type": "result"
+}

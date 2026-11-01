@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-01T18:07:40Z",
+  "body": {
+    "checks": [
+      "matches-generator",
+      "links-resolve"
+    ],
+    "generator": {
+      "id": "vericairn.records/work-orders",
+      "inputs": [
+        "format=1",
+        "audience=Internal",
+        "selection=all-revisions"
+      ]
+    },
+    "kind": "generated",
+    "pathPattern": "docs/registers/work/{month}/{date}-{slug}-{id}.md",
+    "source": "estate-file",
+    "summary": "Every revision of every work order, one generated file each, so the estate's work reads as Markdown on GitHub.",
+    "title": "The work register",
+    "triggers": []
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:2549fac9af5d9a090b914884cdce3fa361f63803a811b907dced4b77eb03152d",
+  "id": "01M6C4QCZJFWX50QK8PE5VW3TC",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "6fSyUftLzwcKSkOUN0uTGGtelnW2rtygc5qtM_mcK14Zfyb8_5G1Knsn9hfZDE5-vsifBn79guVWE3Oj3VdIRw"
+    }
+  ],
+  "type": "living-document"
+}

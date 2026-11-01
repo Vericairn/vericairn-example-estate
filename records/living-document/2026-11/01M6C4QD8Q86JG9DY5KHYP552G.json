@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-01T18:07:40Z",
+  "body": {
+    "checks": [
+      "matches-generator",
+      "links-resolve"
+    ],
+    "generator": {
+      "id": "vericairn.records/decisions",
+      "inputs": [
+        "format=1",
+        "audience=Internal",
+        "selection=all-revisions"
+      ]
+    },
+    "kind": "generated",
+    "pathPattern": "docs/registers/decisions/{month}/{date}-{slug}-{id}.md",
+    "source": "estate-file",
+    "summary": "Every revision of every decision, one generated file each.",
+    "title": "The decisions register",
+    "triggers": []
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:b9c56c21dff9ef9945ee510e1183434049f51285b6bebdb3295fa74a5d639ef9",
+  "id": "01M6C4QD8Q86JG9DY5KHYP552G",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "yaRHt4vSgclEJfYv6sKKZNR4U5xxhD7hUAFfNCg6h2rw1642_Vo02uQXxgwyMfKgujx3_Qv9ZJFzZR8NAFWliA"
+    }
+  ],
+  "type": "living-document"
+}

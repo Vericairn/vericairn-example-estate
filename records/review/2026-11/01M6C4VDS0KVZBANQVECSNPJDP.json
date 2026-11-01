@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-01T18:09:52Z",
+  "body": {
+    "findings": [
+      {
+        "location": "src/Tally/Program.cs",
+        "severity": "error",
+        "summary": "Standard input is read with the console's input encoding, which on Windows is not UTF-8 when input is redirected, so text outside ASCII is miscounted: in the pull request's windows-latest check, 'é' (e and a combining accent) counted 3 characters, and 'café 世界 😀' counted 2 words and 19 characters. Read standard input as UTF-8 explicitly, as files already are."
+      },
+      {
+        "severity": "info",
+        "summary": "The result is partial because the sandbox denied the test runner's local socket; the reviewer ran the suite outside the sandbox, and the pull request's checks run it on every platform."
+      }
+    ],
+    "independence": "independent-agent",
+    "outcome": "findings",
+    "summary": "TALLY-01's first attempt: the counts, tests and README are right on Linux and macOS, where all 51 tests pass, but standard input is miscounted on Windows. Returned for another attempt."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:d4773c64aff57b76c7d12c07f07e16790407f9b3c4519696ba12f8141d832d2a",
+  "id": "01M6C4VDS0KVZBANQVECSNPJDP",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "gF1kkArZX-q1102STU8Rf02yn5wmICzPA8y0YUk0wDPV7LV2tL-wBfPqNSYGqGwKSLfaqbmzaHFWt624YzpoUw"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:b1087e18041f442ab2c95d82a04c9222de7d76277627a1cc70e5b01ad71dd95d",
+    "id": "01M6C4J1BRQ3KQ1WQCPQMWQ6BG",
+    "type": "result"
+  },
+  "type": "review"
+}

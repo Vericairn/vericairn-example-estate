@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-01T18:17:54Z",
+  "body": {
+    "basis": [
+      "01M6C58Z1RBEDFSP7T9G6TMJZN"
+    ],
+    "self": false,
+    "statement": "Accepted the example builder agent's TALLY-01 result on the example reviewer's independent review 01M6C58Z1RBEDFSP7T9G6TMJZN; pull request 2 merged after its checks passed on Linux, macOS and Windows."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:6c446032c04161abb15ed1854c01dcaad12845203eacb1695f11194ceee944eb",
+  "id": "01M6C5A4C7HC7Q2RMQPJJ46WRE",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "foxfeM81uuM0B4-LYfWhbFxRtN7z4eMbX3PvxJVRKG_0tJgIuxrIQ1KFflbc-I1H_6Ry6lzRvbpZsxgu4xqbiA"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:94ac0846e6e6029c69019cfc0cd4a7dc467a37d4e70d58c6de8e47c0cab24bf5",
+    "id": "01M6C54XG5QA41H3Q6KQ9M4M6S",
+    "type": "result"
+  },
+  "type": "acceptance"
+}

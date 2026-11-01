@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-01T18:41:58Z",
+  "body": {
+    "basis": [
+      "01M6C6P5X4KVP7GRKDGP27BW9S"
+    ],
+    "self": true,
+    "statement": "I accept tally 0.1.0 at candidate 01M6C6MBYCPGG89PBA83VQEBWY, on the example reviewer's review 01M6C6P5X4KVP7GRKDGP27BW9S."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:413f33843b55d3debc0a56f4e99b2e192e77b623075e03630c2e8f8a94003a07",
+  "id": "01M6C6P68VTEQRNWXP932DHPEZ",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "TZRx_xuNYY6lxc4hiQwE-GQyqdXjd4sN1LzoMkkhL65wn2TiHjSPb_ASAD8oL_Up5NwFXasyKnRzHK7KFRe5IA"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:69d716b67f2f0127ab22611d9d440259e46ee72f790246372fb0ff52198f7939",
+    "id": "01M6C6MBYCPGG89PBA83VQEBWY",
+    "type": "release"
+  },
+  "type": "acceptance"
+}

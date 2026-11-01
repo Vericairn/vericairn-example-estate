@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-01T18:41:57Z",
+  "body": {
+    "findings": [
+      {
+        "severity": "info",
+        "summary": "An unsigned developer build: no code signing or notarization. Only the macOS arm64 executable was run; the Linux and Windows archives were checked against SHA256SUMS, and their builds ran the tests on those platforms in the release workflow."
+      }
+    ],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "Candidate tally 0.1.0 at fa33ea0: the draft's three archives match SHA256SUMS; the macOS arm64 executable counts lines, words and characters of standard input and files, including text outside ASCII, prints the JSON form with --json, and reports an unreadable file on standard error with exit code 1. It carries TALLY-01 and TALLY-02, both accepted, and the release workflow's tests passed on Linux, macOS and Windows."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:15c4b4c4a8d72f5368f4c58cc296cfeef04b679b8db328dadee3b524424c75ac",
+  "id": "01M6C6P5X4KVP7GRKDGP27BW9S",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "um6NMpm8lvUL0i5u1VBmNMrlKkT2pqm_YWvjxMboRD848IRTiyfr-zgf8EArMh4uZuonbdn72Be7d2IBnZf4Ug"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:69d716b67f2f0127ab22611d9d440259e46ee72f790246372fb0ff52198f7939",
+    "id": "01M6C6MBYCPGG89PBA83VQEBWY",
+    "type": "release"
+  },
+  "type": "review"
+}

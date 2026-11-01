@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-01T18:40:58Z",
+  "body": {
+    "artifacts": [
+      {
+        "bytes": 31949962,
+        "hash": "sha256:53056cd69d81a8c1ec8abc2b975b3a9bc9bb0b7310e541bdef9d577b6cd5f71f",
+        "name": "tally-0.1.0-linux-x64.tar.gz",
+        "platform": "linux-x64"
+      },
+      {
+        "bytes": 30121636,
+        "hash": "sha256:0bc864d1718bd1583148d04de748598d7a9aace78654a9fee664c17839606e0f",
+        "name": "tally-0.1.0-osx-arm64.tar.gz",
+        "platform": "osx-arm64"
+      },
+      {
+        "bytes": 31121891,
+        "hash": "sha256:69ee7bdaafcb2b05efdf2215912083f221974c86ff92851d1cdce1c7888a49d5",
+        "name": "tally-0.1.0-win-x64.zip",
+        "platform": "win-x64"
+      }
+    ],
+    "commit": "fa33ea036d7006c2b7d2c31a9feea5708c493078",
+    "evidence": [
+      {
+        "hash": "sha256:9135d8253ff55680adaa9d47444ae2978f9020f237d84f900f6a6aa4ee500d16",
+        "summary": "Exact policy and duty basis at observed candidate admission."
+      },
+      {
+        "summary": "Release build run 41337529211 on commit fa33ea036d7006c2b7d2c31a9feea5708c493078 succeeded: https://github.com/Vericairn/vericairn-example-app/actions/runs/41337529211"
+      },
+      {
+        "summary": "Draft release v0.1.0 observed at https://github.com/Vericairn/vericairn-example-app/releases/tag/untagged-9d655ff210327d75fe42 with 4 assets and checksums for every declared artifact."
+      },
+      {
+        "summary": "The draft states no record formats, since it carries no documentation set; recorded are those of the Vericairn 0.8.4 that observed it, reads 1, 2, 3; writes 3, and a superseding revision corrects them if the release's differ."
+      }
+    ],
+    "limitations": [],
+    "qualified": [],
+    "recordFormat": {
+      "reads": [
+        1,
+        2,
+        3
+      ],
+      "writes": 3
+    },
+    "repository": "Vericairn/vericairn-example-app",
+    "signing": "unsigned developer build",
+    "status": "candidate",
+    "version": "0.1.0"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:69d716b67f2f0127ab22611d9d440259e46ee72f790246372fb0ff52198f7939",
+  "id": "01M6C6MBYCPGG89PBA83VQEBWY",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "qmeFGLaiJgIFi9yMDYUgc9EF2NBMVdj49tdoNEIoEq0wlVIwqumxt_W8y9EtBw5YNF0W0qFap-Y1FbKswe0JAg"
+    }
+  ],
+  "subject": {
+    "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+    "type": "product"
+  },
+  "type": "release"
+}
