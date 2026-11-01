@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-01T19:59:25Z",
+  "body": {
+    "findings": [],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "Exit question of REL-01: yes. tally 0.1.0 is published (01M6CATQANWG78F29WDT70KGB3) from its recorded candidate 01M6C6MBYCPGG89PBA83VQEBWY, accepted by the operator role on this reviewer's review of the candidate, and carries TALLY-01 and TALLY-02, both accepted."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:a71c5582f2e171c9bd4022873eb593ac263803f65fe3ab2089e4dc5cb3b492f7",
+  "id": "01M6CB40VH5887Q7ASP2ZRSZ8D",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "CXFFFodJlpwq72S46MXdQ6sliVTrEwH4WCFkqNq4ATz-R-cvgZYkvSz8oMKucEEnsRODBo9Lhr0OeMAv_JfHZg"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:fa3d701a4ee3bee9838bd7f962e61fb0678afc8f28c89b434e86b7da4fe4bf93",
+    "id": "01M6C3RV1BK1BX8EFH67S5G27D",
+    "type": "work-order"
+  },
+  "type": "review"
+}

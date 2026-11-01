@@ -26,7 +26,9 @@ Later domains add their own example products to this estate as their packs ship.
 |---|---|---|
 | `TALLY-01` | Count words and characters as well as lines | Accepted. The first attempt was returned when Windows miscounted text outside ASCII; the second passed review and merged in [pull request 2](https://github.com/Vericairn/vericairn-example-app/pull/2) |
 | `TALLY-02` | Machine-readable counts with `--json` | Accepted; merged in [pull request 3](https://github.com/Vericairn/vericairn-example-app/pull/3) |
-| `REL-01` | Release tally 0.1.0, carrying both | Candidate built from an exact commit, reviewed and accepted; publication is the operator's |
+| `REL-01` | Release tally 0.1.0, carrying both | Done: the candidate was built from an exact commit, reviewed and accepted, then [published](https://github.com/Vericairn/vericairn-example-app/releases/tag/v0.1.0) by the operator |
+
+The goal that funded both runs, `tally 0.1.0 through the worker`, is achieved: an evaluator who did none of its work found its condition met, and its sponsor accepted it.
 
 ## What a run records
 

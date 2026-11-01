@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-01T19:59:09Z",
+  "body": {
+    "basis": [
+      "01M6CB3GVKND4Z03Q902NRGH97"
+    ],
+    "self": true,
+    "statement": "Accepted: tally 0.1.0 is published, carrying TALLY-01 and TALLY-02, on the example reviewer's evaluation."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:3b77c9e6963496903652f1017dff3b1de911b44a12226000022a0a53d3356b9f",
+  "id": "01M6CB3H863F4ZD76XVAN5SZWK",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "Ezn1yBkJBzW2_U9QsCASO_WjKaeecM1WK8gHlyx_Ldw6iU0i7XEidgOT4auWFIFBzBa-LEw5rNuW8Pb7k9PUXQ"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:2f984bca3117625e73d98c8b5777997e5e6b214c6cf69e8acca7782965fa2d88",
+    "id": "01M6C3SP39W0Z5VNJHQXQYWST6",
+    "type": "goal"
+  },
+  "type": "acceptance"
+}

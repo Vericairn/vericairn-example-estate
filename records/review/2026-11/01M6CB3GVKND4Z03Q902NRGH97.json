@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-01T19:59:09Z",
+  "body": {
+    "conditions": [
+      {
+        "read": [
+          {
+            "hash": "sha256:48cf0cdcddf42641ccffb90f14a5fc6601f44f5903bfe8d8234ed7431c2ceb14",
+            "id": "01M6CATQANWG78F29WDT70KGB3",
+            "type": "release"
+          }
+        ],
+        "reason": "release records with status published and version 0.1.0: 1 current record matches (01M6CATQANWG78F29WDT70KGB3); at least one is required.",
+        "verdict": "met"
+      }
+    ],
+    "findings": [],
+    "independence": "independent-agent",
+    "outcome": "pass",
+    "summary": "Read the goal's condition against the records: release 0.1.0 of tally is recorded published (01M6CATQANWG78F29WDT70KGB3), carrying TALLY-01 and TALLY-02, both accepted on independent reviews, each built by the example builder agent through the worker within the goal's budget."
+  },
+  "by": "01M6C3MHGPZKANNT7JYJ22XTXN",
+  "format": "vericairn.record/3",
+  "hash": "sha256:642091ed3985c7d5fa4a920c5e74d669f63e3edb24dfe227558c94d626e00cfd",
+  "id": "01M6CB3GVKND4Z03Q902NRGH97",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MHVZVHSKSV2H5GGZ413G",
+      "signature": "KiFPBh08IoSj0o7tLJmoWKkwbxvT9w7Y2QoTBa2kE3lg2lmtbTATRLOKzMsSG4xXrIe84EEZTkWTeKU_eopVvw"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:2f984bca3117625e73d98c8b5777997e5e6b214c6cf69e8acca7782965fa2d88",
+    "id": "01M6C3SP39W0Z5VNJHQXQYWST6",
+    "type": "goal"
+  },
+  "type": "review"
+}
