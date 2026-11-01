@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-01T17:52:57Z",
+  "body": {
+    "roles": [
+      {
+        "principals": [
+          "01M6C3MHAZ58MF425SK101VQKT"
+        ],
+        "role": "builder"
+      },
+      {
+        "principals": [
+          "01M6C3MHGPZKANNT7JYJ22XTXN"
+        ],
+        "role": "reviewer"
+      },
+      {
+        "principals": [
+          "01M6C3K49V7R6YXHJE04YRZ2MM"
+        ],
+        "role": "decider"
+      }
+    ]
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:2d5ded6764387d8908669a8a3c565afe52d6aadf64b81b9c8616f1da29027289",
+  "id": "01M6C3WEAS0FMSVRMEW4CHACQN",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "deT-AijrftofBG9vKaArexTcTFce9Of0Nhk0cvFa9bdvEy3BlhJBS05wxgvAGvu5Xr6j2reL_00mXakhvgDRVQ"
+    }
+  ],
+  "type": "roster"
+}

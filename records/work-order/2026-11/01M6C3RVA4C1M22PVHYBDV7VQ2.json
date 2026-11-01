@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-01T17:50:59Z",
+  "body": {
+    "deliverables": [
+      "A pull request to vericairn-example-app, merged after its checks pass on Linux, macOS and Windows"
+    ],
+    "exitQuestion": "Does tally print the lines, words and characters of files and of standard input, tested, with the README describing them?",
+    "inputs": [],
+    "intent": "tally counts only lines; people comparing texts also want their words and characters.",
+    "key": "TALLY-01",
+    "kind": "ordinary",
+    "placement": {
+      "carrier": "01M6C3RTS21YXHSZ5TA4215D3B",
+      "kind": "release",
+      "product": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+      "version": "0.1.0"
+    },
+    "scope": [
+      "tally prints the lines, words and characters of each file and of standard input, in that order, separated by spaces, followed by the path for a file",
+      "A word is a run of characters that are not whitespace; a character is a Unicode scalar value",
+      "Tests for each count, including empty input, input without a final line break and text outside ASCII",
+      "The README describes the output"
+    ],
+    "title": "Count words and characters as well as lines"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:f1856f478f0594264d008d97763f3b65c4084ec35c5074bea5db9af6ce57a2a9",
+  "id": "01M6C3RVA4C1M22PVHYBDV7VQ2",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "QysMs1gt13ZXuvTyYHVA2d4nCKggfaLrWHu0UyhAygySb5Y12prYEX3dL9nkhM4bpZE8wT2_V_KPuf5yKwJpTg"
+    }
+  ],
+  "supersedes": "01M6C3RBZ4E49HYN18SN6DY33Q",
+  "type": "work-order"
+}

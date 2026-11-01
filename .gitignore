@@ -1,0 +1,6 @@
+# Per-clone working state: toolchain, caches, local index. Never estate content.
+.vericairn/
+
+# Operating-system residue
+.DS_Store
+Thumbs.db

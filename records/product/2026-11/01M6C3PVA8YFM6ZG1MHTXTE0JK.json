@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-01T17:49:53Z",
+  "body": {
+    "changes": {
+      "provider": "github-pull-requests",
+      "repository": "01M6C3PV4GRTA4QWDS1WC7CRNH",
+      "requiredChecks": [
+        "test (ubuntu-latest)",
+        "test (macos-latest)",
+        "test (windows-latest)"
+      ],
+      "target": "main"
+    },
+    "editions": [
+      {
+        "license": "Apache-2.0",
+        "name": "Community",
+        "slug": "community",
+        "summary": "The whole product, free and open source."
+      }
+    ],
+    "name": "tally",
+    "release": {
+      "artifacts": [
+        {
+          "name": "tally-{version}-{platform}.tar.gz",
+          "platforms": [
+            "linux-x64",
+            "osx-arm64"
+          ],
+          "role": "distributable"
+        },
+        {
+          "name": "tally-{version}-{platform}.zip",
+          "platforms": [
+            "win-x64"
+          ],
+          "role": "distributable"
+        }
+      ],
+      "checksums": "SHA256SUMS",
+      "destination": {
+        "provider": "github-releases",
+        "settings": {
+          "repository": "Vericairn/vericairn-example-app"
+        }
+      }
+    },
+    "slug": "tally",
+    "summary": "A tiny command line that counts what text holds: the example product the estate manages end to end.",
+    "surfaces": [
+      {
+        "name": "Command line",
+        "slug": "cli",
+        "summary": "The tally executable."
+      }
+    ]
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:013756af6b50b7252cb07b4a78a6a34449a8f9b783c85ba956d22d7c4b35557d",
+  "id": "01M6C3PVA8YFM6ZG1MHTXTE0JK",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "ZK50QAFgDvMw4vcOe6kQTALFXhjGs57qSSNouuPOjvVpYybyV3HIJX_yz6F8lJ2yCsYBmsSZcp_d3ntHvSUC5Q"
+    }
+  ],
+  "type": "product"
+}

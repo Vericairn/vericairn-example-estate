@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-01T17:48:39Z",
+  "body": {
+    "note": "The example reviewer agent's key, demonstration only.",
+    "principal": "01M6C3MHGPZKANNT7JYJ22XTXN",
+    "status": "admitted"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:1f1ad261dc19e8b6f39b6a0b78644d0eaffe7d6f3109452398bb3504b69334fc",
+  "id": "01M6C3MJ7A41TSM57RB39E2CBX",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "95USA7WVt3-sWio4_rgcYMaauqckxmH4MatjkBfYhQQ9tWU2O2COuZM4y5ODZ_dRzx-rP23ja6Wa0lVrAVIeIw"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:26737aef856dcb9fdbc9717afb0186692fcf40b01c4db4adf7edb7b49546172c",
+    "id": "01M6C3MHVZVHSKSV2H5GGZ413G",
+    "type": "device"
+  },
+  "type": "admission"
+}

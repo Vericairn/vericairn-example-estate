@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-01T17:51:26Z",
+  "body": {
+    "budget": {
+      "attemptsPerStep": 2,
+      "concurrency": 1,
+      "wallMinutes": 180
+    },
+    "completion": [
+      {
+        "record": {
+          "fields": {
+            "status": "published",
+            "version": "0.1.0"
+          },
+          "type": "release"
+        }
+      }
+    ],
+    "constraints": [
+      "Every principal and key in this estate is a demonstration; nothing here acts for a real person or organization",
+      "The agent changes only the example app's source, tests and README, on its own branch"
+    ],
+    "inputs": [],
+    "kind": "finite",
+    "objective": "The example builder agent carries TALLY-01 and TALLY-02 through vericairn worker run, one run at a time, each with its cap recorded before it starts and its usage after, until tally 0.1.0 is published.",
+    "plan": {
+      "approval": "sponsor-approves",
+      "policy": "given",
+      "workOrders": [
+        "01M6C3RVA4C1M22PVHYBDV7VQ2",
+        "01M6C3RVJQEJV4BHJRWAZ90SF2"
+      ]
+    },
+    "sponsor": "01M6C3K49V7R6YXHJE04YRZ2MM",
+    "title": "tally 0.1.0 through the worker"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:2f984bca3117625e73d98c8b5777997e5e6b214c6cf69e8acca7782965fa2d88",
+  "id": "01M6C3SP39W0Z5VNJHQXQYWST6",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "3gKPacsCKPIP9QLcYRhrtV4rxXXIymb8UxxCROt42SLmFMdFrXzE6GEs3PamxAF3YV2JrGyKZ0soE324LrE3dw"
+    }
+  ],
+  "type": "goal"
+}
