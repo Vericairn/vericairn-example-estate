@@ -6,7 +6,7 @@ Source: [work&#45;order 01M6C3RV1BK1BX8EFH67S5G27D](../../../../records/work-ord
 
 Recorded at: 2026-11-01 17:50:59 UTC. Author: 01M6C3K49V7R6YXHJE04YRZ2MM. Record format: 3.
 
-Input digest: sha256:c35685ff412c16c6e70deff2ef827f53548ffabf10309509f424866b868db139.
+Input digest: sha256:fca09aae1b10efef33fb44b6a21a53127d270a291ef28359a2bcacd90f9437a1.
 
 Recorded work definition and typed placement. Derived work status and acceptance are separate reader views.
 
@@ -107,3 +107,9 @@ The product identity and exact version this work order carries&#59; it may place
 - Release Plan &#47; Product: 01M6C3PVA8YFM6ZG1MHTXTE0JK
 
 - Release Plan &#47; Version: 0&#46;1&#46;0
+
+## Disclosure
+
+held&#58; its key&#44; title&#44; intent and scope stay out of public repositories until the release that carries it is published&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.

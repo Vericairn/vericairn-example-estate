@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-02T21:09:36Z",
+  "body": {
+    "changes": [
+      "estate/manifest.json pinned to release 0.9.0 with the artifact hashes of release 01M6F1H81W2Q9ZP5E1WQNKS5Q2",
+      "docs/registers/releases: 2 generated members rewritten by vericairn.records/releases/2; each held exactly the bytes vericairn.records/releases/1 wrote for the same sources",
+      "docs/registers/work: 6 generated members rewritten by vericairn.records/work-orders/2; each held exactly the bytes vericairn.records/work-orders/1 wrote for the same sources"
+    ],
+    "fromFormat": 3,
+    "fromPin": "release 0.8.4",
+    "migrations": [],
+    "release": "01M6F1H81W2Q9ZP5E1WQNKS5Q2",
+    "toFormat": 3,
+    "toPin": "release 0.9.0"
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:8d350ea49db749fb2e019ee17aa4cb294cf5142c279eefa212f798bb08e4a190",
+  "id": "01M6F1H83WA65G3DQKAN0FSMW9",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "YAMj5qz9d9A8guh1oZ3wrOX34LOKJnw5RdqBFqXFql68Aw42oTc6bNBhhnboneGBShv2FbEDDaIVqbTz8feVvA"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:6df63497c30ccbb45371157c054655cd344688414e3f056614f07d40546030ef",
+    "id": "01M6F1H81W2Q9ZP5E1WQNKS5Q2",
+    "type": "observation"
+  },
+  "type": "migration"
+}

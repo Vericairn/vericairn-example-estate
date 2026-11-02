@@ -6,7 +6,7 @@ Source: [release 01M6C6MBYCPGG89PBA83VQEBWY](../../../../records/release/2026-11
 
 Recorded at: 2026-11-01 18:40:58 UTC. Author: 01M6C3K49V7R6YXHJE04YRZ2MM. Record format: 3.
 
-Input digest: sha256:1c993426849e7a5d353075153cd815388a7ad1ac44aeccda2482ed305f919155.
+Input digest: sha256:1d12e212ec6d7e6bb773ac8d98a2fcfb444b32366269dc1c427849c9b815d2fb.
 
 Recorded facts at this exact revision. Later revisions and current state must be read separately.
 
@@ -131,5 +131,29 @@ Not recorded in this revision. Absence supplies no inferred value or permission.
 ## Url
 
 Where the published release is observed &#40;published only&#41;&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## Line
+
+Release line&#58; 1 to 40 lower&#45;case letters&#44; digits&#44; dots or hyphens&#44; beginning with a letter or digit&#59; defaults to current&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## Channel
+
+Publication channel&#59; defaults to stable&#46; A stable or lts line may carry prereleases of its next version&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## End Of Support
+
+RFC 3339 end of support&#59; required only for lts&#44; no earlier than publishedAt&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## Backport Of
+
+Exact &#123;id&#44; hash&#125; of a current published release of this product in another line&#46;
 
 Not recorded in this revision. Absence supplies no inferred value or permission.

@@ -6,7 +6,7 @@ Source: [release 01M6CATQANWG78F29WDT70KGB3](../../../../records/release/2026-11
 
 Recorded at: 2026-11-01 19:54:20 UTC. Author: 01M6C3K49V7R6YXHJE04YRZ2MM. Record format: 3.
 
-Input digest: sha256:5de01ae2ac1ec2beb7dafb4f894eadb3468708c2b9dcfbbd897a19108c149e83.
+Input digest: sha256:9571464e2afbd4d1da00f69a03ff979b97655c234292b2c25a40d4745a468f12.
 
 Recorded facts at this exact revision. Later revisions and current state must be read separately.
 
@@ -137,3 +137,27 @@ When the publication was observed &#40;published only&#41;&#46;
 Where the published release is observed &#40;published only&#41;&#46;
 
 - Url: https&#58;&#47;&#47;github&#46;com&#47;Vericairn&#47;vericairn&#45;example&#45;app&#47;releases&#47;tag&#47;v0&#46;1&#46;0
+
+## Line
+
+Release line&#58; 1 to 40 lower&#45;case letters&#44; digits&#44; dots or hyphens&#44; beginning with a letter or digit&#59; defaults to current&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## Channel
+
+Publication channel&#59; defaults to stable&#46; A stable or lts line may carry prereleases of its next version&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## End Of Support
+
+RFC 3339 end of support&#59; required only for lts&#44; no earlier than publishedAt&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
+
+## Backport Of
+
+Exact &#123;id&#44; hash&#125; of a current published release of this product in another line&#46;
+
+Not recorded in this revision. Absence supplies no inferred value or permission.
