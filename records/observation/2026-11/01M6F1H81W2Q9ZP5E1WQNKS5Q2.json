@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-02T21:09:36Z",
+  "body": {
+    "asOf": "2026-11-02T21:09:36Z",
+    "facts": {
+      "artifactHashes": [
+        "sha256:a194955fad2ba3a0370d6da3f64ca17307f1e6857db99c9b625368adb021ada2",
+        "sha256:0df2ba112d5c7c338623a6f6a96652a1f2d4b8720ecafdaf8753a476cfb31077",
+        "sha256:345f1ff78712fcaa6f64d845115ebbc33e74850c87a83e00fe2607d474458e6e",
+        "sha256:dabaf9adeb98eb86bcce1d07ef1534043b79434e9d419bb97c031208dc3a7af0",
+        "sha256:93dc50d33482fac84fc81cd903d1b015f68008dac0d23511180916a34688346e",
+        "sha256:60626ca268ffbd865b8355530b4f6da6a31abd81124d8d9e5f9b53bd05fcea02",
+        "sha256:2269d9effd8ab6e3b3a630806d058a7d23c25deb758fddefc1feb06c74867cc7",
+        "sha256:a4d8ee4ff1d52ce74e8e6a4256971aa76a6a3a97e978c3303e1be5db7367229f",
+        "sha256:9197e0b8787ab827e2b51cac9666080a7e5f24e156d182021de1e7883359f6da",
+        "sha256:269e9810f3916bc718206b884c63a145d89d09927a355a34c7af83cdfdce56eb",
+        "sha256:cfcc9531a8082ee0da8556e36526d72bff57c700e7aa6314ef528cdd4bd5e8c9",
+        "sha256:67c55a4113d8b09fc944b048668cf5dcb85850b7c0c34d6a207c92f5fddad866"
+      ],
+      "artifactNames": [
+        "vericairn-0.9.0-linux-x64.tar.gz",
+        "vericairn-workbench-0.9.0-linux-x64.tar.gz",
+        "vericairn-0.9.0-linux-arm64.tar.gz",
+        "vericairn-workbench-0.9.0-linux-arm64.tar.gz",
+        "vericairn-0.9.0-osx-x64.tar.gz",
+        "vericairn-workbench-0.9.0-osx-x64.tar.gz",
+        "vericairn-0.9.0-osx-arm64.tar.gz",
+        "vericairn-workbench-0.9.0-osx-arm64.tar.gz",
+        "vericairn-0.9.0-win-x64.zip",
+        "vericairn-workbench-0.9.0-win-x64.zip",
+        "vericairn-0.9.0-win-arm64.zip",
+        "vericairn-workbench-0.9.0-win-arm64.zip"
+      ],
+      "artifactPlatforms": [
+        "linux-x64",
+        "linux-x64",
+        "linux-arm64",
+        "linux-arm64",
+        "osx-x64",
+        "osx-x64",
+        "osx-arm64",
+        "osx-arm64",
+        "win-x64",
+        "win-x64",
+        "win-arm64",
+        "win-arm64"
+      ],
+      "checksumsHash": "sha256:3ae725be6542945d6c9190fa84cfa6709c0b8b07af03b404d85f5269dc6cba32",
+      "checksumsUrl": "https://github.com/Vericairn/vericairn/releases/download/v0.9.0/SHA256SUMS",
+      "commit": "fba531475bc60d0fec713e7d2f574afe74b166ff",
+      "observer": "vericairn 0.9.0+fba531475bc60d0fec713e7d2f574afe74b166ff",
+      "reads": [
+        "1",
+        "2",
+        "3"
+      ],
+      "repository": "Vericairn/vericairn",
+      "signing": "unsigned developer build",
+      "tag": "v0.9.0",
+      "url": "https://github.com/Vericairn/vericairn/releases/tag/v0.9.0",
+      "verifiedPlatform": "osx-arm64",
+      "version": "0.9.0",
+      "writes": 3
+    },
+    "kind": "vericairn-release",
+    "limitations": [
+      "The builds are unsigned developer builds. Published hashes establish byte identity, not publisher signatures; only this machine's command-line archive was downloaded and verified."
+    ],
+    "summary": "Observed published Vericairn 0.9.0 and verified its osx-arm64 command-line archive."
+  },
+  "by": "01M6C3K49V7R6YXHJE04YRZ2MM",
+  "format": "vericairn.record/3",
+  "hash": "sha256:6df63497c30ccbb45371157c054655cd344688414e3f056614f07d40546030ef",
+  "id": "01M6F1H81W2Q9ZP5E1WQNKS5Q2",
+  "signatures": [
+    {
+      "algorithm": "ecdsa-p256-sha256",
+      "device": "01M6C3MGZ6M1DFF1DYRW8S710V",
+      "signature": "hVVSOZLbM4E6oHrPRKSMpGUftu4m37QypMDSYQkA2KY9v0QAf-C0PBo5lY-Sen4ZMZPMhpEs-2UdwpILeXpDCg"
+    }
+  ],
+  "subject": {
+    "hash": "sha256:071700d35072e8b2b37dc949ca13d15575355cabca538c4b7b01989c65f23b1b",
+    "id": "01M6C3PTZ59BAK66A0EN09KJ4K",
+    "type": "estate"
+  },
+  "type": "observation"
+}
