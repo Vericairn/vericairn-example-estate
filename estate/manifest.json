@@ -1,24 +1,25 @@
 {
   "estate": "01M6C3K49V7R6YXHJE04YRZ2MN",
+  "firstAuthority": "01M6C3MH55WTGQ96QJBSACQMY6",
   "format": "vericairn.estate-manifest/1",
   "profile": "repository-synced",
   "recordFormat": 3,
   "vericairn": {
     "artifacts": {
-      "linux-arm64": "sha256:e08993068f05946e911821fdcde2cf63701084107e280b639dd01a8b579a9f2f",
-      "linux-x64": "sha256:d3bd68097e8ed1b3982b446645cb9300ac7817531ed272f2f5a1c6a709c136cd",
-      "osx-arm64": "sha256:45fed1cf280ed873de3c9558473aa3dcfff19be43d7ed37c25a3a110d70879e2",
-      "osx-x64": "sha256:ffc4e7fe96fc69b209340f8ffaccc45d9c647653162cf01ded93caa67a2ce215",
-      "win-arm64": "sha256:4b33c91bee0fe4bdf8a8a2b0f5d5e40aa8e62dbf31e91bec095a34cb5ba21c80",
-      "win-x64": "sha256:07e63213fdc12b819d8c88f144d779519820fab93155d2f9c08850ee7404c177"
+      "linux-arm64": "sha256:98a98e8a7a6ba551a4b155fef7b2675531b7d29d57b336022db962122e996400",
+      "linux-x64": "sha256:04d088c8a4e0765ec40c24d1ccc44125bb0f57108d54cde1f25866c0c8f6caa4",
+      "osx-arm64": "sha256:a0086aae9d5cdf2a7863192a4bae2223cbfdd47e86648598e10e59e64375e529",
+      "osx-x64": "sha256:20c680a11e8dad1892ef936f9f29dc072231d44e7a9420ecc9c73887f9536c88",
+      "win-arm64": "sha256:2c3b866bbe44b8e64030653f0a5b178408dc4a64480779e768fbbc922d19ec37",
+      "win-x64": "sha256:637ad3f5a1aa1147a3e57f3dde9b810efb94926ee4d9fe03c627481d4910742c"
     },
     "mode": "release",
     "release": {
-      "hash": "sha256:f84a8092c1af22f0185dc154c8411c81264c1c85ffa15b43928b5890b5c9a029",
-      "id": "01M6SW9HTPPN2X9AGWNJ6GMFBJ",
+      "hash": "sha256:e0bc2156c76c75331c931204a8549ad2345e2d9f113de7b63dfd0c5fa01e9678",
+      "id": "01M78NFCZST06QBQG5N780K9SE",
       "type": "observation"
     },
     "repository": "Vericairn/vericairn",
-    "version": "0.9.1"
+    "version": "0.9.2"
   }
 }
