@@ -45,4 +45,4 @@ cd vericairn-example-estate
 ./bootstrap estate check
 ```
 
-A clone without the demonstration keys reads everything and signs nothing. The [check workflow](.github/workflows/check.yml) does the same cold start on Linux, macOS and Windows for every change, and the estate is upgraded with every Vericairn release. It pins [Vericairn 0.9.2](https://github.com/Vericairn/vericairn/releases/tag/v0.9.2), the current published release, which the bootstrap fetches and verifies.
+A clone without the demonstration keys reads everything and signs nothing. The [check workflow](.github/workflows/check.yml) does the same cold start on Linux, macOS and Windows for every change, and the estate is upgraded with every Vericairn release. It pins [Vericairn 0.9.3](https://github.com/Vericairn/vericairn/releases/tag/v0.9.3), the current published release, which the bootstrap fetches and verifies.
